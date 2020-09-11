@@ -1,21 +1,18 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\P3\\OOP\\Personal\\Kurse1\\BasicOpgaver\\BasicOpgaver.csproj": {}
+    "D:\\Git\\P3\\OOP\\Personal\\Kurse1\\BasicOpgaver\\BasicOpgaver.csproj": {}
   },
   "projects": {
-    "C:\\Git\\P3\\OOP\\Personal\\Kurse1\\BasicOpgaver\\BasicOpgaver.csproj": {
+    "D:\\Git\\P3\\OOP\\Personal\\Kurse1\\BasicOpgaver\\BasicOpgaver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\P3\\OOP\\Personal\\Kurse1\\BasicOpgaver\\BasicOpgaver.csproj",
+        "projectUniqueName": "D:\\Git\\P3\\OOP\\Personal\\Kurse1\\BasicOpgaver\\BasicOpgaver.csproj",
         "projectName": "BasicOpgaver",
-        "projectPath": "C:\\Git\\P3\\OOP\\Personal\\Kurse1\\BasicOpgaver\\BasicOpgaver.csproj",
+        "projectPath": "D:\\Git\\P3\\OOP\\Personal\\Kurse1\\BasicOpgaver\\BasicOpgaver.csproj",
         "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\P3\\OOP\\Personal\\Kurse1\\BasicOpgaver\\obj\\",
+        "outputPath": "D:\\Git\\P3\\OOP\\Personal\\Kurse1\\BasicOpgaver\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\johan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -55,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
