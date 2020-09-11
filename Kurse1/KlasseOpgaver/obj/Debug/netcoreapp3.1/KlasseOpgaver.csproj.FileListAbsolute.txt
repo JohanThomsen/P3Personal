@@ -1,0 +1,13 @@
+C:\Git\P3\OOP\Personal\Kurse1\KlasseOpgaver\obj\Debug\netcoreapp3.1\KlasseOpgaver.csprojAssemblyReference.cache
+C:\Git\P3\OOP\Personal\Kurse1\KlasseOpgaver\obj\Debug\netcoreapp3.1\KlasseOpgaver.AssemblyInfoInputs.cache
+C:\Git\P3\OOP\Personal\Kurse1\KlasseOpgaver\obj\Debug\netcoreapp3.1\KlasseOpgaver.AssemblyInfo.cs
+C:\Git\P3\OOP\Personal\Kurse1\KlasseOpgaver\obj\Debug\netcoreapp3.1\KlasseOpgaver.csproj.CoreCompileInputs.cache
+C:\Git\P3\OOP\Personal\Kurse1\KlasseOpgaver\bin\Debug\netcoreapp3.1\KlasseOpgaver.exe
+C:\Git\P3\OOP\Personal\Kurse1\KlasseOpgaver\bin\Debug\netcoreapp3.1\KlasseOpgaver.deps.json
+C:\Git\P3\OOP\Personal\Kurse1\KlasseOpgaver\bin\Debug\netcoreapp3.1\KlasseOpgaver.runtimeconfig.json
+C:\Git\P3\OOP\Personal\Kurse1\KlasseOpgaver\bin\Debug\netcoreapp3.1\KlasseOpgaver.runtimeconfig.dev.json
+C:\Git\P3\OOP\Personal\Kurse1\KlasseOpgaver\bin\Debug\netcoreapp3.1\KlasseOpgaver.dll
+C:\Git\P3\OOP\Personal\Kurse1\KlasseOpgaver\bin\Debug\netcoreapp3.1\KlasseOpgaver.pdb
+C:\Git\P3\OOP\Personal\Kurse1\KlasseOpgaver\obj\Debug\netcoreapp3.1\KlasseOpgaver.dll
+C:\Git\P3\OOP\Personal\Kurse1\KlasseOpgaver\obj\Debug\netcoreapp3.1\KlasseOpgaver.pdb
+C:\Git\P3\OOP\Personal\Kurse1\KlasseOpgaver\obj\Debug\netcoreapp3.1\KlasseOpgaver.genruntimeconfig.cache

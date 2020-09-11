@@ -11,3 +11,16 @@ C:\Git\P3\OOP\Opgaver\Kurse1\BasicOpgaver\bin\Debug\netcoreapp3.1\BasicOpgaver.p
 C:\Git\P3\OOP\Opgaver\Kurse1\BasicOpgaver\obj\Debug\netcoreapp3.1\BasicOpgaver.dll
 C:\Git\P3\OOP\Opgaver\Kurse1\BasicOpgaver\obj\Debug\netcoreapp3.1\BasicOpgaver.pdb
 C:\Git\P3\OOP\Opgaver\Kurse1\BasicOpgaver\obj\Debug\netcoreapp3.1\BasicOpgaver.genruntimeconfig.cache
+C:\Git\P3\OOP\Personal\Kurse1\BasicOpgaver\bin\Debug\netcoreapp3.1\BasicOpgaver.exe
+C:\Git\P3\OOP\Personal\Kurse1\BasicOpgaver\bin\Debug\netcoreapp3.1\BasicOpgaver.deps.json
+C:\Git\P3\OOP\Personal\Kurse1\BasicOpgaver\bin\Debug\netcoreapp3.1\BasicOpgaver.runtimeconfig.json
+C:\Git\P3\OOP\Personal\Kurse1\BasicOpgaver\bin\Debug\netcoreapp3.1\BasicOpgaver.runtimeconfig.dev.json
+C:\Git\P3\OOP\Personal\Kurse1\BasicOpgaver\bin\Debug\netcoreapp3.1\BasicOpgaver.dll
+C:\Git\P3\OOP\Personal\Kurse1\BasicOpgaver\bin\Debug\netcoreapp3.1\BasicOpgaver.pdb
+C:\Git\P3\OOP\Personal\Kurse1\BasicOpgaver\obj\Debug\netcoreapp3.1\BasicOpgaver.csprojAssemblyReference.cache
+C:\Git\P3\OOP\Personal\Kurse1\BasicOpgaver\obj\Debug\netcoreapp3.1\BasicOpgaver.AssemblyInfoInputs.cache
+C:\Git\P3\OOP\Personal\Kurse1\BasicOpgaver\obj\Debug\netcoreapp3.1\BasicOpgaver.AssemblyInfo.cs
+C:\Git\P3\OOP\Personal\Kurse1\BasicOpgaver\obj\Debug\netcoreapp3.1\BasicOpgaver.csproj.CoreCompileInputs.cache
+C:\Git\P3\OOP\Personal\Kurse1\BasicOpgaver\obj\Debug\netcoreapp3.1\BasicOpgaver.dll
+C:\Git\P3\OOP\Personal\Kurse1\BasicOpgaver\obj\Debug\netcoreapp3.1\BasicOpgaver.pdb
+C:\Git\P3\OOP\Personal\Kurse1\BasicOpgaver\obj\Debug\netcoreapp3.1\BasicOpgaver.genruntimeconfig.cache

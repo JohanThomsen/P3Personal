@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\P3\\OOP\\Personal\\Kurse1\\BasicOpgaver\\BasicOpgaver.csproj": {}
+    "C:\\Git\\P3\\OOP\\Personal\\Kurse1\\KlasseOpgaver\\KlasseOpgaver.csproj": {}
   },
   "projects": {
-    "C:\\Git\\P3\\OOP\\Personal\\Kurse1\\BasicOpgaver\\BasicOpgaver.csproj": {
+    "C:\\Git\\P3\\OOP\\Personal\\Kurse1\\KlasseOpgaver\\KlasseOpgaver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\P3\\OOP\\Personal\\Kurse1\\BasicOpgaver\\BasicOpgaver.csproj",
-        "projectName": "BasicOpgaver",
-        "projectPath": "C:\\Git\\P3\\OOP\\Personal\\Kurse1\\BasicOpgaver\\BasicOpgaver.csproj",
+        "projectUniqueName": "C:\\Git\\P3\\OOP\\Personal\\Kurse1\\KlasseOpgaver\\KlasseOpgaver.csproj",
+        "projectName": "KlasseOpgaver",
+        "projectPath": "C:\\Git\\P3\\OOP\\Personal\\Kurse1\\KlasseOpgaver\\KlasseOpgaver.csproj",
         "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\P3\\OOP\\Personal\\Kurse1\\BasicOpgaver\\obj\\",
+        "outputPath": "C:\\Git\\P3\\OOP\\Personal\\Kurse1\\KlasseOpgaver\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
