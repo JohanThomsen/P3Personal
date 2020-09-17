@@ -2,20 +2,22 @@
 
 public class Person
 {
-	public Person(string firstName, string lastName, int age, Person mom, Person dad)
+	public Person(string firstName, string lastName, int age, int id, Person mom, Person dad)
     {
 		FirstName = firstName;
 		LastName = lastName;
 		Age = age;
+		ID = id;
 		Mom = mom;
 		Dad = dad;
     }
 
-	public Person(string firstName, string lastName, int age)
+	public Person(string firstName, string lastName, int age, int id)
 	{
 		FirstName = firstName;
 		LastName = lastName;
 		Age = age;
+		ID = id;
 	}
 	private string _FirstName;
 	public string FirstName
@@ -99,18 +101,51 @@ public class Person
         }
     }
 
-	Person Mom;
+	private int _Id;
+    public int ID { get; set; }
+
+    Person Mom;
 	Person Dad;
 
 
 
-	public void PrintCheck()
+	public void PrintTree()
 	{
         Console.WriteLine($"First name : {_FirstName}");
 		Console.WriteLine($"Last name : {_LastName}");
 		Console.WriteLine($"Age : {_Age}");
-        Console.WriteLine($"Mom : {Mom.FirstName} {Mom.LastName} {Mom.Age}");
-		Console.WriteLine($"Dad : {Dad.FirstName} {Dad.LastName} {Dad.Age}");
+		if (IsAlive(Mom))
+        {
+			Console.WriteLine($"Mom : {Mom.FirstName} {Mom.LastName} {Mom.Age} ");
+		}
+        
+		if (IsAlive(Dad))
+        {
+			Console.WriteLine($"Dad : {Dad.FirstName} {Dad.LastName} {Dad.Age}");
+		}
+
+		if (IsAlive(Mom.Mom))
+        {
+			Console.WriteLine($"Grand Mom : {Mom.Mom.FirstName} {Mom.Mom.LastName} {Mom.Mom.Age}");
+
+		}
+
+		if (IsAlive(Dad.Dad))
+		{
+			Console.WriteLine($"Grand Dad : {Dad.Dad.FirstName} {Dad.Dad.LastName} {Dad.Dad.Age}");
+
+		}
 
 	}
+
+	private bool IsAlive(Person parent)
+    {
+		if (parent == null)
+        {
+			return false;
+        } else
+        {
+			return true;
+        }
+    }
 }
