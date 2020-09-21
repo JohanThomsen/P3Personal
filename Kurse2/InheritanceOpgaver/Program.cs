@@ -18,7 +18,21 @@ namespace InheritanceOpgaver
            // Console.WriteLine(weekday.CalculateMinutes());
             //Console.WriteLine(weekend.CalculateMinutes());
 
-            Account test = new Account(200, 10, 2);
+            //Account test = new Account(100000m, 10m, 2m);
+
+            //Console.WriteLine($"1. { test.Balance} { test.BorrowingRate} { test.SavingsRate}");
+
+            //test.Deposit(20000m);
+            //Console.WriteLine($"Deposit. { test.Balance} { test.BorrowingRate} { test.SavingsRate}");
+            //test.Withdraw(50000m);
+            //Console.WriteLine($"Withdraw. { test.Balance} { test.BorrowingRate} { test.SavingsRate}");
+            //test.AccrueInterest();
+            //Console.WriteLine($"Accrue. { test.Balance} { test.BorrowingRate} { test.SavingsRate}");
+            //test.ChargeInterest();
+            //Console.WriteLine($"Charge { test.Balance} { test.BorrowingRate} { test.SavingsRate}");
+
+            //test.Deposit(300000m);
+
         }
     }
 }
