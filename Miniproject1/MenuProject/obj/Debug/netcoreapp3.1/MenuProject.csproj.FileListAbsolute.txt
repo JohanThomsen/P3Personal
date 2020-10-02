@@ -1,0 +1,13 @@
+C:\Git\P3\OOP\Personal\Miniproject1\MenuProject\obj\Debug\netcoreapp3.1\MenuProject.csprojAssemblyReference.cache
+C:\Git\P3\OOP\Personal\Miniproject1\MenuProject\obj\Debug\netcoreapp3.1\MenuProject.AssemblyInfoInputs.cache
+C:\Git\P3\OOP\Personal\Miniproject1\MenuProject\obj\Debug\netcoreapp3.1\MenuProject.AssemblyInfo.cs
+C:\Git\P3\OOP\Personal\Miniproject1\MenuProject\obj\Debug\netcoreapp3.1\MenuProject.csproj.CoreCompileInputs.cache
+C:\Git\P3\OOP\Personal\Miniproject1\MenuProject\bin\Debug\netcoreapp3.1\MenuProject.exe
+C:\Git\P3\OOP\Personal\Miniproject1\MenuProject\bin\Debug\netcoreapp3.1\MenuProject.deps.json
+C:\Git\P3\OOP\Personal\Miniproject1\MenuProject\bin\Debug\netcoreapp3.1\MenuProject.runtimeconfig.json
+C:\Git\P3\OOP\Personal\Miniproject1\MenuProject\bin\Debug\netcoreapp3.1\MenuProject.runtimeconfig.dev.json
+C:\Git\P3\OOP\Personal\Miniproject1\MenuProject\bin\Debug\netcoreapp3.1\MenuProject.dll
+C:\Git\P3\OOP\Personal\Miniproject1\MenuProject\bin\Debug\netcoreapp3.1\MenuProject.pdb
+C:\Git\P3\OOP\Personal\Miniproject1\MenuProject\obj\Debug\netcoreapp3.1\MenuProject.dll
+C:\Git\P3\OOP\Personal\Miniproject1\MenuProject\obj\Debug\netcoreapp3.1\MenuProject.pdb
+C:\Git\P3\OOP\Personal\Miniproject1\MenuProject\obj\Debug\netcoreapp3.1\MenuProject.genruntimeconfig.cache
