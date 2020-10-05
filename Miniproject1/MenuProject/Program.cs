@@ -15,6 +15,7 @@ namespace MenuProject
             sub.Add(new MenuItem("First Sub", "First sub content"));
             sub.Add(new MenuItem("Second Sub", "Second sub content"));
             m.Add(sub);
+            m.Add(new InfiniteMenu("Infinite"));
             m.Start();
         }
 

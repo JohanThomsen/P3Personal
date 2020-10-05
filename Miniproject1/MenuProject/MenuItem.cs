@@ -13,12 +13,18 @@ public class MenuItem : IMenu
     public string Title { get;}
 
     public string Content { get;}
+    private bool _running = true;
 
     public void Select()
     {
-        Console.WriteLine(Content);
-
-        AwaitInput();
+        _running = true;
+        do
+        {
+            Console.WriteLine(Content);
+            AwaitInput();
+        } while (_running);
+   
+        
     }
 
     private void AwaitInput()
@@ -27,11 +33,11 @@ public class MenuItem : IMenu
         if (cki.Key == ConsoleKey.Escape || cki.Key == ConsoleKey.Backspace)
         {
             Console.Clear();
+            _running = false;
         }
         else
         {
-            Console.Clear();
-            Select();
+            Console.Clear(); 
         }
     }
 }

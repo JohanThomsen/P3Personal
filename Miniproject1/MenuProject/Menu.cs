@@ -11,7 +11,7 @@ public class Menu : IMenu
 	}
 
     public bool Running = true;
-    private int Selected = 0;
+    private int _selected = 0;
     private int _menuLength = 0;
     public string Title { get; }
 
@@ -37,30 +37,28 @@ public class Menu : IMenu
         Console.WriteLine(String.Format("{0," + ((Console.WindowWidth / 2) + (Title.Length / 2)) + "}", Title));
         for (int i = 0; i < _menuLength; i++)
         {
-            if (i == Selected)
+            if (i == _selected)
             {
                 Console.ForegroundColor = ConsoleColor.Black;
                 Console.BackgroundColor = ConsoleColor.White;
-                if (_items[i] is MenuItem)
-                {
-                    Console.WriteLine(((MenuItem)_items[i]).Title);
-                } else
-                {
-                    Console.WriteLine(((Menu)_items[i]).Title);
-                }
- 
+                PrintRelevantType(_items[i]);
                 Console.ResetColor();
             } else
             {
-                if (_items[i] is MenuItem)
-                {
-                    Console.WriteLine(((MenuItem)_items[i]).Title);
-                }
-                else
-                {
-                    Console.WriteLine(((Menu)_items[i]).Title);
-                }
+                PrintRelevantType(_items[i]);
             }
+        }
+    }
+
+    private void PrintRelevantType(IMenu Item)
+    {
+        if (Item is MenuItem)
+        {
+            Console.WriteLine(((MenuItem)Item).Title);
+        }
+        else
+        {
+            Console.WriteLine(((Menu)Item).Title);
         }
     }
 
@@ -84,7 +82,7 @@ public class Menu : IMenu
                 break;
             case ConsoleKey.Enter:
                 Console.Clear();
-                _items[Selected].Select();
+                _items[_selected].Select();
                 break;
             default:
                 Draw();
@@ -94,29 +92,29 @@ public class Menu : IMenu
 
     private void MoveUp()
     {
-        if (Selected == 0)
+        if (_selected == 0)
         {
-            Selected = _menuLength - 1;
+            _selected = _menuLength - 1;
         }
         else
         {
-            Selected--;
+            _selected--;
         }    
     }
 
     private void MoveDown()
     {
-        if (Selected == _menuLength - 1)
+        if (_selected == _menuLength - 1)
         {
-            Selected = 0;
+            _selected = 0;
         }
         else
         {
-            Selected++;
+            _selected++;
         }
     }
 
-    public void Select()
+    public virtual void Select()
     {
         Console.Clear();
         Start();
