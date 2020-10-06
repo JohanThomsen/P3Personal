@@ -8,10 +8,10 @@ namespace MenuProject
     {
         static void Main(string[] args)
         {
-            //Menu m = InitiateExampleMenu();
-           // m.Start();
+            Menu m = InitiateExampleMenu();
+            m.Start();
 
-            string url = "http://www.dr.dk/nyheder/service/feeds/allenyheder";
+            /*string url = "http://www.dr.dk/nyheder/service/feeds/allenyheder";
             XmlReader reader = XmlReader.Create(url);
             SyndicationFeed feed = SyndicationFeed.Load(reader);
             reader.Close();
@@ -19,7 +19,7 @@ namespace MenuProject
             {
                 Console.WriteLine(item.Title.Text);
                 Console.WriteLine(item.Summary.Text);
-            }
+            }*/
 
         }
 
@@ -37,6 +37,8 @@ namespace MenuProject
             m.Add(new InfiniteMenu("Infinite"));
             m.Add(new FileSystemMenu("Browse your C Drive", new DirectoryInfo("C:\\")));
             m.Add(new FileSystemMenu("Browse your D Drive", new DirectoryInfo("D:\\")));
+            m.Add(new RSSMenuItem("Gaming News", "http://blog.dota2.com/feed/"));
+            m.Add(new DRNewsMenu("DR News"));
             return m;
         }
 
