@@ -11,11 +11,11 @@ public class Menu : IMenu
 	}
 
     public bool Running = true;
-    private int _selected = 0;
-    private int _menuLength = 0;
+    protected int _selected = 0;
+    protected int _menuLength = 0;
     public string Title { get; }
 
-    private List<IMenu> _items = new List<IMenu>();
+    protected List<IMenu> _items = new List<IMenu>();
 
 	public void Add(IMenu item)
 	{
@@ -32,7 +32,7 @@ public class Menu : IMenu
         } while (Running);
     }
 
-	private void Draw()
+	protected virtual void Draw()
     {
         Console.WriteLine(String.Format("{0," + ((Console.WindowWidth / 2) + (Title.Length / 2)) + "}", Title));
         for (int i = 0; i < _menuLength; i++)
@@ -50,7 +50,7 @@ public class Menu : IMenu
         }
     }
 
-    private void PrintRelevantType(IMenu Item)
+    protected void PrintRelevantType(IMenu Item)
     {
         if (Item is MenuItem)
         {
