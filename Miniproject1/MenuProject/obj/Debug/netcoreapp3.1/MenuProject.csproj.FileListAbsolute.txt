@@ -26,3 +26,5 @@ C:\Users\johan\Documents\P3Personal\Miniproject1\MenuProject\obj\Debug\netcoreap
 C:\Users\johan\Documents\P3Personal\Miniproject1\MenuProject\bin\Debug\netcoreapp3.1\System.ServiceModel.Syndication.dll
 C:\Users\johan\Documents\P3Personal\Miniproject1\MenuProject\obj\Debug\netcoreapp3.1\MenuProject.csproj.CoreCompileInputs.cache
 C:\Users\johan\Documents\P3Personal\Miniproject1\MenuProject\obj\Debug\netcoreapp3.1\MenuProject.csproj.CopyComplete
+C:\Git\P3\OOP\Personal\Miniproject1\MenuProject\bin\Debug\netcoreapp3.1\System.ServiceModel.Syndication.dll
+C:\Git\P3\OOP\Personal\Miniproject1\MenuProject\obj\Debug\netcoreapp3.1\MenuProject.csproj.CopyComplete

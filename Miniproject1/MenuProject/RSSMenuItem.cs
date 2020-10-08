@@ -13,11 +13,6 @@ namespace MenuProject
             base(Title)
         {
             RSSUrl = rssUrl;
-        }
-        public string RSSUrl { get;}
-
-        public override void Select()
-        {
             XmlReader reader = XmlReader.Create(RSSUrl);
             SyndicationFeed feed = SyndicationFeed.Load(reader);
             reader.Close();
@@ -26,7 +21,12 @@ namespace MenuProject
             {
                 Add(new MenuItem(item.Title.Text, item.Summary.Text));
             }
-            Start();
+        }
+        public string RSSUrl { get;}
+
+        public override void Select()
+        {
+            base.Select();
         }
     }
 }

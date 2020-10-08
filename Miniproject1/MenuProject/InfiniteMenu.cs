@@ -7,6 +7,7 @@ namespace MenuProject
 {
     class InfiniteMenu : Menu, IMenu
     {
+        private bool initiated = false;
         public InfiniteMenu(string Title) :
             base(Title)
         {
@@ -16,7 +17,11 @@ namespace MenuProject
         public override void Select()
         {
             Console.Clear();
-            AddMenus();
+            if (initiated == false)
+            {
+                AddMenus();
+                initiated = true;
+            }
             Start();
         }
 
