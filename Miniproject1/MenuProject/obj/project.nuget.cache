@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OKnVdG0ev7621cDWNBE/0yWy2k4WmfbrVPXW+F0Ptidxf2Un395kgyDaAJ6fxnR+lMPR1IGnXrpjBE1fIwE/5A==",
+  "dgSpecHash": "tBWWpKfETfDTiP9BM3Ezkvl/ARoap9YcyGURwG39u1thm8bh2wY+B7qPsJimZQhXwrzWf9qhhkqdBhmDSo+81w==",
   "success": true,
-  "projectFilePath": "C:\\Git\\P3\\OOP\\Personal\\Miniproject1\\MenuProject\\MenuProject.csproj",
+  "projectFilePath": "C:\\Users\\johan\\Documents\\P3Personal\\Miniproject1\\MenuProject\\MenuProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\johan\\.nuget\\packages\\system.servicemodel.syndication\\4.7.0\\system.servicemodel.syndication.4.7.0.nupkg.sha512"
   ],

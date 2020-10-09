@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\P3\\OOP\\Personal\\Miniproject1\\MenuProject\\MenuProject.csproj": {}
+    "C:\\Users\\johan\\Documents\\P3Personal\\Miniproject1\\MenuProject\\MenuProject.csproj": {}
   },
   "projects": {
-    "C:\\Git\\P3\\OOP\\Personal\\Miniproject1\\MenuProject\\MenuProject.csproj": {
+    "C:\\Users\\johan\\Documents\\P3Personal\\Miniproject1\\MenuProject\\MenuProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\P3\\OOP\\Personal\\Miniproject1\\MenuProject\\MenuProject.csproj",
+        "projectUniqueName": "C:\\Users\\johan\\Documents\\P3Personal\\Miniproject1\\MenuProject\\MenuProject.csproj",
         "projectName": "MenuProject",
-        "projectPath": "C:\\Git\\P3\\OOP\\Personal\\Miniproject1\\MenuProject\\MenuProject.csproj",
+        "projectPath": "C:\\Users\\johan\\Documents\\P3Personal\\Miniproject1\\MenuProject\\MenuProject.csproj",
         "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\P3\\OOP\\Personal\\Miniproject1\\MenuProject\\obj\\",
+        "outputPath": "C:\\Users\\johan\\Documents\\P3Personal\\Miniproject1\\MenuProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\johan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
