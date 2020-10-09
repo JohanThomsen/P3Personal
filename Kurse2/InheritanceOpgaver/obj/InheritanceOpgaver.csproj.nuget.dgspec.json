@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\P3\\OOP\\Personal\\Kurse2\\InheritanceOpgaver\\InheritanceOpgaver.csproj": {}
+    "C:\\Git\\P3\\Personal\\Kurse2\\InheritanceOpgaver\\InheritanceOpgaver.csproj": {}
   },
   "projects": {
-    "C:\\Git\\P3\\OOP\\Personal\\Kurse2\\InheritanceOpgaver\\InheritanceOpgaver.csproj": {
+    "C:\\Git\\P3\\Personal\\Kurse2\\InheritanceOpgaver\\InheritanceOpgaver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\P3\\OOP\\Personal\\Kurse2\\InheritanceOpgaver\\InheritanceOpgaver.csproj",
+        "projectUniqueName": "C:\\Git\\P3\\Personal\\Kurse2\\InheritanceOpgaver\\InheritanceOpgaver.csproj",
         "projectName": "InheritanceOpgaver",
-        "projectPath": "C:\\Git\\P3\\OOP\\Personal\\Kurse2\\InheritanceOpgaver\\InheritanceOpgaver.csproj",
+        "projectPath": "C:\\Git\\P3\\Personal\\Kurse2\\InheritanceOpgaver\\InheritanceOpgaver.csproj",
         "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\P3\\OOP\\Personal\\Kurse2\\InheritanceOpgaver\\obj\\",
+        "outputPath": "C:\\Git\\P3\\Personal\\Kurse2\\InheritanceOpgaver\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\johan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
