@@ -1,0 +1,13 @@
+C:\Git\P3\Personal\Kurse6Generics\GenericsOpgaver\bin\Debug\netcoreapp3.1\GenericsOpgaver.exe
+C:\Git\P3\Personal\Kurse6Generics\GenericsOpgaver\bin\Debug\netcoreapp3.1\GenericsOpgaver.deps.json
+C:\Git\P3\Personal\Kurse6Generics\GenericsOpgaver\bin\Debug\netcoreapp3.1\GenericsOpgaver.runtimeconfig.json
+C:\Git\P3\Personal\Kurse6Generics\GenericsOpgaver\bin\Debug\netcoreapp3.1\GenericsOpgaver.runtimeconfig.dev.json
+C:\Git\P3\Personal\Kurse6Generics\GenericsOpgaver\bin\Debug\netcoreapp3.1\GenericsOpgaver.dll
+C:\Git\P3\Personal\Kurse6Generics\GenericsOpgaver\bin\Debug\netcoreapp3.1\GenericsOpgaver.pdb
+C:\Git\P3\Personal\Kurse6Generics\GenericsOpgaver\obj\Debug\netcoreapp3.1\GenericsOpgaver.csprojAssemblyReference.cache
+C:\Git\P3\Personal\Kurse6Generics\GenericsOpgaver\obj\Debug\netcoreapp3.1\GenericsOpgaver.AssemblyInfoInputs.cache
+C:\Git\P3\Personal\Kurse6Generics\GenericsOpgaver\obj\Debug\netcoreapp3.1\GenericsOpgaver.AssemblyInfo.cs
+C:\Git\P3\Personal\Kurse6Generics\GenericsOpgaver\obj\Debug\netcoreapp3.1\GenericsOpgaver.csproj.CoreCompileInputs.cache
+C:\Git\P3\Personal\Kurse6Generics\GenericsOpgaver\obj\Debug\netcoreapp3.1\GenericsOpgaver.dll
+C:\Git\P3\Personal\Kurse6Generics\GenericsOpgaver\obj\Debug\netcoreapp3.1\GenericsOpgaver.pdb
+C:\Git\P3\Personal\Kurse6Generics\GenericsOpgaver\obj\Debug\netcoreapp3.1\GenericsOpgaver.genruntimeconfig.cache
