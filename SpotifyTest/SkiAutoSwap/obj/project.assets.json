@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\P3\\Personal\\Kurse3\\InheritanceOpgaver\\InheritanceOpgaver.csproj",
-      "projectName": "InheritanceOpgaver",
-      "projectPath": "C:\\Git\\P3\\Personal\\Kurse3\\InheritanceOpgaver\\InheritanceOpgaver.csproj",
+      "projectUniqueName": "C:\\Git\\P3\\Personal\\SpotifyTest\\SkiAutoSwap\\SkiAutoSwap.csproj",
+      "projectName": "SkiAutoSwap",
+      "projectPath": "C:\\Git\\P3\\Personal\\SpotifyTest\\SkiAutoSwap\\SkiAutoSwap.csproj",
       "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\P3\\Personal\\Kurse3\\InheritanceOpgaver\\obj\\",
+      "outputPath": "C:\\Git\\P3\\Personal\\SpotifyTest\\SkiAutoSwap\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

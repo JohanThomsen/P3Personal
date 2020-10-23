@@ -1,0 +1,13 @@
+C:\Git\P3\Personal\SpotifyTest\SkiAutoSwap\bin\Debug\netcoreapp3.1\SkiAutoSwap.exe
+C:\Git\P3\Personal\SpotifyTest\SkiAutoSwap\bin\Debug\netcoreapp3.1\SkiAutoSwap.deps.json
+C:\Git\P3\Personal\SpotifyTest\SkiAutoSwap\bin\Debug\netcoreapp3.1\SkiAutoSwap.runtimeconfig.json
+C:\Git\P3\Personal\SpotifyTest\SkiAutoSwap\bin\Debug\netcoreapp3.1\SkiAutoSwap.runtimeconfig.dev.json
+C:\Git\P3\Personal\SpotifyTest\SkiAutoSwap\bin\Debug\netcoreapp3.1\SkiAutoSwap.dll
+C:\Git\P3\Personal\SpotifyTest\SkiAutoSwap\bin\Debug\netcoreapp3.1\SkiAutoSwap.pdb
+C:\Git\P3\Personal\SpotifyTest\SkiAutoSwap\obj\Debug\netcoreapp3.1\SkiAutoSwap.csprojAssemblyReference.cache
+C:\Git\P3\Personal\SpotifyTest\SkiAutoSwap\obj\Debug\netcoreapp3.1\SkiAutoSwap.AssemblyInfoInputs.cache
+C:\Git\P3\Personal\SpotifyTest\SkiAutoSwap\obj\Debug\netcoreapp3.1\SkiAutoSwap.AssemblyInfo.cs
+C:\Git\P3\Personal\SpotifyTest\SkiAutoSwap\obj\Debug\netcoreapp3.1\SkiAutoSwap.csproj.CoreCompileInputs.cache
+C:\Git\P3\Personal\SpotifyTest\SkiAutoSwap\obj\Debug\netcoreapp3.1\SkiAutoSwap.dll
+C:\Git\P3\Personal\SpotifyTest\SkiAutoSwap\obj\Debug\netcoreapp3.1\SkiAutoSwap.pdb
+C:\Git\P3\Personal\SpotifyTest\SkiAutoSwap\obj\Debug\netcoreapp3.1\SkiAutoSwap.genruntimeconfig.cache
