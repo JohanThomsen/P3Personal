@@ -1,0 +1,24 @@
+﻿@page "/testPage"
+
+<h3>Counter</h3>
+
+<p>Current count : @count</p>
+
+@foreach (int item in list)
+{
+    <p>@item</p>
+}
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+
+    private List<int> list = new List<int> {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    private int count = 0;
+
+    private void IncrementCount()
+    {
+        count++;
+    }
+
+}

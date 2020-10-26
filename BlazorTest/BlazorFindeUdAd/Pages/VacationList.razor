@@ -1,0 +1,35 @@
+﻿@page "/vacationList"
+
+<h3>Vacations:</h3>
+
+<ul>
+    @foreach (var vacation in vacations)
+    {
+        <li>
+            <p>Destination: @vacation.Destination Price . @vacation.Price</p>
+        </li>
+    }
+</ul>
+
+<input placeholder="Type" @bind="type" />
+<input placeholder="Destination" @bind="destination" />
+<input type ="number" placeholder="Price" @bind="price" />
+<button @onclick="AddVacation">Add Vacation</button>
+
+@code {
+    private IList<Vacation> vacations = new List<Vacation>();
+    private string type;
+    private string destination;
+    private int price;
+
+    private void AddVacation()
+    {
+        if (!string.IsNullOrWhiteSpace(type))
+        {
+            vacations.Add(new Vacation(type, destination, price));
+            type = string.Empty;
+            destination = string.Empty;
+            price = 0;
+        }
+    }
+}
