@@ -1,16 +1,8 @@
 ﻿@page "/vacationList"
 
 @using TravelClubProto.Data
-<h3>Vacations:</h3>
-
-<ul>
-    @foreach (Vacation vacation in vacations)
-    {
-        <li>
-            <p>Destination: @vacation.Destination Price : @vacation.Price</p>
-        </li>
-    }
-</ul>
+@inject VacationAdmin VacationAdmin
+<h3> Add a Vacation</h3>
 
 <input placeholder="Type" @bind="type" />
 <input placeholder="Destination" @bind="destination" />
@@ -18,20 +10,15 @@
 <button @onclick="AddVacation">Add Vacation</button>
 
 @code {
-    private IList<Vacation> vacations = new List<Vacation>();
     private string type;
     private string destination;
     private int price;
-    //private VacationList m = new VacationList();
 
     public void AddVacation()
     {
-        //Console.WriteLine(m.Age);
         if (!string.IsNullOrWhiteSpace(type))
         {
-            /*m.PublishVacation(new Vacation(type, destination, price));
-            VacationAdmin.PublishVacation(new Vacation(type, destination, price));*/
-            vacations.Add(new Vacation(type, destination, price));
+            VacationAdmin.PublishVacation(new Vacation(type, destination, price));
             type = string.Empty;
             destination = string.Empty;
             price = 0;

@@ -5,10 +5,11 @@ using System.Threading.Tasks;
 
 namespace TravelClubProto.Data
 {
-    public class VacationList
+    public class VacationAdmin
     {
         public int Age = 10;
-        public List<Vacation> PublishedVacations { get; }
+
+        public List<Vacation> PublishedVacations { get; } = new List<Vacation>();
 
         public void PublishVacation(Vacation newVac)
         {

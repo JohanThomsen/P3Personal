@@ -48,3 +48,5 @@ C:\Git\P3\OOP\Personal\BlazorTest\TravelClubProto\obj\Debug\netcoreapp3.1\Travel
 C:\Git\P3\OOP\Personal\BlazorTest\TravelClubProto\obj\Debug\netcoreapp3.1\TravelClubProto.csproj.CopyComplete
 C:\Git\P3\OOP\Personal\BlazorTest\TravelClubProto\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\FetchData.razor.g.cs
 C:\Git\P3\OOP\Personal\BlazorTest\TravelClubProto\obj\Debug\netcoreapp3.1\Razor\Pages\FetchData.razor.g.cs
+C:\Git\P3\OOP\Personal\BlazorTest\TravelClubProto\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ViewVacations.razor.g.cs
+C:\Git\P3\OOP\Personal\BlazorTest\TravelClubProto\obj\Debug\netcoreapp3.1\Razor\Pages\ViewVacations.razor.g.cs
