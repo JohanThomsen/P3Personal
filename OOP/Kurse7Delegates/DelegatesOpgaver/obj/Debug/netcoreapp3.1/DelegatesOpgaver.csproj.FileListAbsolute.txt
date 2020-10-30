@@ -1,0 +1,13 @@
+C:\Git\P3\Personal\OOP\Kurse7Delegates\DelegatesOpgaver\bin\Debug\netcoreapp3.1\DelegatesOpgaver.exe
+C:\Git\P3\Personal\OOP\Kurse7Delegates\DelegatesOpgaver\bin\Debug\netcoreapp3.1\DelegatesOpgaver.deps.json
+C:\Git\P3\Personal\OOP\Kurse7Delegates\DelegatesOpgaver\bin\Debug\netcoreapp3.1\DelegatesOpgaver.runtimeconfig.json
+C:\Git\P3\Personal\OOP\Kurse7Delegates\DelegatesOpgaver\bin\Debug\netcoreapp3.1\DelegatesOpgaver.runtimeconfig.dev.json
+C:\Git\P3\Personal\OOP\Kurse7Delegates\DelegatesOpgaver\bin\Debug\netcoreapp3.1\DelegatesOpgaver.dll
+C:\Git\P3\Personal\OOP\Kurse7Delegates\DelegatesOpgaver\bin\Debug\netcoreapp3.1\DelegatesOpgaver.pdb
+C:\Git\P3\Personal\OOP\Kurse7Delegates\DelegatesOpgaver\obj\Debug\netcoreapp3.1\DelegatesOpgaver.csprojAssemblyReference.cache
+C:\Git\P3\Personal\OOP\Kurse7Delegates\DelegatesOpgaver\obj\Debug\netcoreapp3.1\DelegatesOpgaver.AssemblyInfoInputs.cache
+C:\Git\P3\Personal\OOP\Kurse7Delegates\DelegatesOpgaver\obj\Debug\netcoreapp3.1\DelegatesOpgaver.AssemblyInfo.cs
+C:\Git\P3\Personal\OOP\Kurse7Delegates\DelegatesOpgaver\obj\Debug\netcoreapp3.1\DelegatesOpgaver.csproj.CoreCompileInputs.cache
+C:\Git\P3\Personal\OOP\Kurse7Delegates\DelegatesOpgaver\obj\Debug\netcoreapp3.1\DelegatesOpgaver.dll
+C:\Git\P3\Personal\OOP\Kurse7Delegates\DelegatesOpgaver\obj\Debug\netcoreapp3.1\DelegatesOpgaver.pdb
+C:\Git\P3\Personal\OOP\Kurse7Delegates\DelegatesOpgaver\obj\Debug\netcoreapp3.1\DelegatesOpgaver.genruntimeconfig.cache
