@@ -1,0 +1,13 @@
+C:\Git\P3\OOP\Personal\Kurse8Testing\Kurse8UnitTesting\bin\Debug\netcoreapp3.1\Kurse8UnitTesting.exe
+C:\Git\P3\OOP\Personal\Kurse8Testing\Kurse8UnitTesting\bin\Debug\netcoreapp3.1\Kurse8UnitTesting.deps.json
+C:\Git\P3\OOP\Personal\Kurse8Testing\Kurse8UnitTesting\bin\Debug\netcoreapp3.1\Kurse8UnitTesting.runtimeconfig.json
+C:\Git\P3\OOP\Personal\Kurse8Testing\Kurse8UnitTesting\bin\Debug\netcoreapp3.1\Kurse8UnitTesting.runtimeconfig.dev.json
+C:\Git\P3\OOP\Personal\Kurse8Testing\Kurse8UnitTesting\bin\Debug\netcoreapp3.1\Kurse8UnitTesting.dll
+C:\Git\P3\OOP\Personal\Kurse8Testing\Kurse8UnitTesting\bin\Debug\netcoreapp3.1\Kurse8UnitTesting.pdb
+C:\Git\P3\OOP\Personal\Kurse8Testing\Kurse8UnitTesting\obj\Debug\netcoreapp3.1\Kurse8UnitTesting.csprojAssemblyReference.cache
+C:\Git\P3\OOP\Personal\Kurse8Testing\Kurse8UnitTesting\obj\Debug\netcoreapp3.1\Kurse8UnitTesting.AssemblyInfoInputs.cache
+C:\Git\P3\OOP\Personal\Kurse8Testing\Kurse8UnitTesting\obj\Debug\netcoreapp3.1\Kurse8UnitTesting.AssemblyInfo.cs
+C:\Git\P3\OOP\Personal\Kurse8Testing\Kurse8UnitTesting\obj\Debug\netcoreapp3.1\Kurse8UnitTesting.csproj.CoreCompileInputs.cache
+C:\Git\P3\OOP\Personal\Kurse8Testing\Kurse8UnitTesting\obj\Debug\netcoreapp3.1\Kurse8UnitTesting.dll
+C:\Git\P3\OOP\Personal\Kurse8Testing\Kurse8UnitTesting\obj\Debug\netcoreapp3.1\Kurse8UnitTesting.pdb
+C:\Git\P3\OOP\Personal\Kurse8Testing\Kurse8UnitTesting\obj\Debug\netcoreapp3.1\Kurse8UnitTesting.genruntimeconfig.cache
