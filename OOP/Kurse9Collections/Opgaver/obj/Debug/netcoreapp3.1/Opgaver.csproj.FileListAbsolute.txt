@@ -1,0 +1,13 @@
+C:\Git\P3\Personal\OOP\Kurse9Collections\Opgaver\bin\Debug\netcoreapp3.1\Opgaver.exe
+C:\Git\P3\Personal\OOP\Kurse9Collections\Opgaver\bin\Debug\netcoreapp3.1\Opgaver.deps.json
+C:\Git\P3\Personal\OOP\Kurse9Collections\Opgaver\bin\Debug\netcoreapp3.1\Opgaver.runtimeconfig.json
+C:\Git\P3\Personal\OOP\Kurse9Collections\Opgaver\bin\Debug\netcoreapp3.1\Opgaver.runtimeconfig.dev.json
+C:\Git\P3\Personal\OOP\Kurse9Collections\Opgaver\bin\Debug\netcoreapp3.1\Opgaver.dll
+C:\Git\P3\Personal\OOP\Kurse9Collections\Opgaver\bin\Debug\netcoreapp3.1\Opgaver.pdb
+C:\Git\P3\Personal\OOP\Kurse9Collections\Opgaver\obj\Debug\netcoreapp3.1\Opgaver.csprojAssemblyReference.cache
+C:\Git\P3\Personal\OOP\Kurse9Collections\Opgaver\obj\Debug\netcoreapp3.1\Opgaver.AssemblyInfoInputs.cache
+C:\Git\P3\Personal\OOP\Kurse9Collections\Opgaver\obj\Debug\netcoreapp3.1\Opgaver.AssemblyInfo.cs
+C:\Git\P3\Personal\OOP\Kurse9Collections\Opgaver\obj\Debug\netcoreapp3.1\Opgaver.csproj.CoreCompileInputs.cache
+C:\Git\P3\Personal\OOP\Kurse9Collections\Opgaver\obj\Debug\netcoreapp3.1\Opgaver.dll
+C:\Git\P3\Personal\OOP\Kurse9Collections\Opgaver\obj\Debug\netcoreapp3.1\Opgaver.pdb
+C:\Git\P3\Personal\OOP\Kurse9Collections\Opgaver\obj\Debug\netcoreapp3.1\Opgaver.genruntimeconfig.cache
