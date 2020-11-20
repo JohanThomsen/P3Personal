@@ -1,0 +1,13 @@
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\bin\Debug\netcoreapp3.1\FklubStregSystemEksamen.exe
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\bin\Debug\netcoreapp3.1\FklubStregSystemEksamen.deps.json
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\bin\Debug\netcoreapp3.1\FklubStregSystemEksamen.runtimeconfig.json
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\bin\Debug\netcoreapp3.1\FklubStregSystemEksamen.runtimeconfig.dev.json
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\bin\Debug\netcoreapp3.1\FklubStregSystemEksamen.dll
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\bin\Debug\netcoreapp3.1\FklubStregSystemEksamen.pdb
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\obj\Debug\netcoreapp3.1\FklubStregSystemEksamen.csprojAssemblyReference.cache
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\obj\Debug\netcoreapp3.1\FklubStregSystemEksamen.AssemblyInfoInputs.cache
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\obj\Debug\netcoreapp3.1\FklubStregSystemEksamen.AssemblyInfo.cs
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\obj\Debug\netcoreapp3.1\FklubStregSystemEksamen.csproj.CoreCompileInputs.cache
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\obj\Debug\netcoreapp3.1\FklubStregSystemEksamen.dll
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\obj\Debug\netcoreapp3.1\FklubStregSystemEksamen.pdb
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\obj\Debug\netcoreapp3.1\FklubStregSystemEksamen.genruntimeconfig.cache

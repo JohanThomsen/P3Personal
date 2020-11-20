@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\johan\\Documents\\P3Personal\\Miniproject1\\MenuProject\\MenuProject.csproj": {}
+    "C:\\Git\\P3\\Personal\\OOP\\Miniproject1\\MenuProject\\MenuProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\johan\\Documents\\P3Personal\\Miniproject1\\MenuProject\\MenuProject.csproj": {
+    "C:\\Git\\P3\\Personal\\OOP\\Miniproject1\\MenuProject\\MenuProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\johan\\Documents\\P3Personal\\Miniproject1\\MenuProject\\MenuProject.csproj",
+        "projectUniqueName": "C:\\Git\\P3\\Personal\\OOP\\Miniproject1\\MenuProject\\MenuProject.csproj",
         "projectName": "MenuProject",
-        "projectPath": "C:\\Users\\johan\\Documents\\P3Personal\\Miniproject1\\MenuProject\\MenuProject.csproj",
+        "projectPath": "C:\\Git\\P3\\Personal\\OOP\\Miniproject1\\MenuProject\\MenuProject.csproj",
         "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\johan\\Documents\\P3Personal\\Miniproject1\\MenuProject\\obj\\",
+        "outputPath": "C:\\Git\\P3\\Personal\\OOP\\Miniproject1\\MenuProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\P3\\Personal\\Kurse6Generics\\GenericsOpgaver\\GenericsOpgaver.csproj": {}
+    "C:\\Git\\P3\\Personal\\OOP\\Kurse6Generics\\GenericsOpgaver\\GenericsOpgaver.csproj": {}
   },
   "projects": {
-    "C:\\Git\\P3\\Personal\\Kurse6Generics\\GenericsOpgaver\\GenericsOpgaver.csproj": {
+    "C:\\Git\\P3\\Personal\\OOP\\Kurse6Generics\\GenericsOpgaver\\GenericsOpgaver.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\P3\\Personal\\Kurse6Generics\\GenericsOpgaver\\GenericsOpgaver.csproj",
+        "projectUniqueName": "C:\\Git\\P3\\Personal\\OOP\\Kurse6Generics\\GenericsOpgaver\\GenericsOpgaver.csproj",
         "projectName": "GenericsOpgaver",
-        "projectPath": "C:\\Git\\P3\\Personal\\Kurse6Generics\\GenericsOpgaver\\GenericsOpgaver.csproj",
+        "projectPath": "C:\\Git\\P3\\Personal\\OOP\\Kurse6Generics\\GenericsOpgaver\\GenericsOpgaver.csproj",
         "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\P3\\Personal\\Kurse6Generics\\GenericsOpgaver\\obj\\",
+        "outputPath": "C:\\Git\\P3\\Personal\\OOP\\Kurse6Generics\\GenericsOpgaver\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
