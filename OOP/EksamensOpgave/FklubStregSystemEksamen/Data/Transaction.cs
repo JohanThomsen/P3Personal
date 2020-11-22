@@ -5,7 +5,7 @@ using System.Text;
 
 namespace FklubStregSystemEksamen.Data
 {
-    abstract class Transaction : IEnumerable<Transaction>
+    public abstract class Transaction : IDatabase
     {
         static int internalID = 0;
         private int IncrementID()
@@ -13,7 +13,6 @@ namespace FklubStregSystemEksamen.Data
             return internalID++;
         }
 
-        List<Transaction> internalList = new List<Transaction>();
         public Transaction(User user, DateTime date)
         {
             ID = IncrementID();
@@ -40,22 +39,11 @@ namespace FklubStregSystemEksamen.Data
             return $"ID: {ID} | User: {User} | Amount: {Amount} | Date: {Date}";
         }
 
-        public Transaction this[int index]
+        public virtual string LogToString()
         {
-            get { return internalList[index]; }
-            set { internalList.Insert(index, value); }
+            return $"{User.ID},{User.Firstname},{User.Lastname},{User.Username},{User.Email},{User.Balance},{Date}";
         }
 
-        public IEnumerator<Transaction> GetEnumerator()
-        {
-            return internalList.GetEnumerator();
-        }
-
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return GetEnumerator();
-        }
-
-        public abstract void Execute();
+        public abstract bool Execute();
     }
 }

@@ -1,16 +1,23 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using FklubStregSystemEksamen.Data;
 using FklubStregSystemEksamen.Exceptions;
+using FklubStregSystemEksamen.UI;
 
 namespace FklubStregSystemEksamen
 {
     class Program
     {
         static void Main(string[] args)
-        {
-            Database<User> d = new Database<User>();
+        {            
+            IStregsystem stregsystem = new Stregsystem(new DatabaseAccess());
+            IStregsystemUI ui = new StregsystemUI(stregsystem);
+            StregSystemController sc = new StregSystemController(ui, stregsystem);
 
-            d.FillFromDatabaseFile("..\\Data\\users.csv");
+            sc.ParseCommand("jleve 15");
+                
+            
         }
     }
 }

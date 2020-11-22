@@ -1,0 +1,11 @@
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\b\FklubStregSystemEksamen\Debug\netcoreapp3.1\FklubStregSystemEksamen.exe
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\b\FklubStregSystemEksamen\Debug\netcoreapp3.1\FklubStregSystemEksamen.deps.json
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\b\FklubStregSystemEksamen\Debug\netcoreapp3.1\FklubStregSystemEksamen.runtimeconfig.json
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\b\FklubStregSystemEksamen\Debug\netcoreapp3.1\FklubStregSystemEksamen.runtimeconfig.dev.json
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\b\FklubStregSystemEksamen\Debug\netcoreapp3.1\FklubStregSystemEksamen.dll
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\b\FklubStregSystemEksamen\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.LiveUnitTesting.Runtime.dll
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\i\FklubStregSystemEksamen\Debug\netcoreapp3.1\FklubStregSystemEksamen.AssemblyInfoInputs.cache
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\i\FklubStregSystemEksamen\Debug\netcoreapp3.1\FklubStregSystemEksamen.AssemblyInfo.cs
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\i\FklubStregSystemEksamen\Debug\netcoreapp3.1\FklubStregSystemEksamen.csproj.CopyComplete
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\i\FklubStregSystemEksamen\Debug\netcoreapp3.1\FklubStregSystemEksamen.dll
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\i\FklubStregSystemEksamen\Debug\netcoreapp3.1\FklubStregSystemEksamen.genruntimeconfig.cache

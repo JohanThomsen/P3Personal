@@ -1634,16 +1634,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
-      },
-      "Kurse8UnitTesting/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Kurse8UnitTesting.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Kurse8UnitTesting.dll": {}
-        }
       }
     }
   },
@@ -2352,11 +2342,12 @@
       ]
     },
     "runtime.native.System.IO.Compression/4.3.0": {
-      "sha512": "b+V9JC/Ii3sR659flBeaBJww111425tgjcDS1k+hqV4sGh9FALRDBvJnDtQ895gAzpPTUOFDHdqaZ2Et7BpZMg==",
+      "sha512": "INBPonS5QPEgn7naufQFXJEp3zX6L4bwHgJ/ZH78aBTpeNfQMtf7C6VrAFhlq2xxWBveIOWyFzQjJ8XzHMhdOQ==",
       "type": "package",
       "path": "runtime.native.system.io.compression/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -2457,11 +2448,12 @@
       ]
     },
     "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "T5NvFgmHX0WH4c7lP72krsnk+IJI10vJf2j2twGE+5QBRA4RyRAgD+ZjEgdmpLOjW4B+nZGaadewTCUcR899OQ==",
+      "sha512": "nyFNiCk/r+VOiIqreLix8yN+q3Wga9+SE8BCgkf+2BwEKiNx6DyvFjCgkfV743/grxv8jHJ8gUK4XEQw7yzRYg==",
       "type": "package",
       "path": "runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -5642,16 +5634,11 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
-    },
-    "Kurse8UnitTesting/1.0.0": {
-      "type": "project",
-      "path": "../Kurse8UnitTesting/Kurse8UnitTesting.csproj",
-      "msbuildProject": "../Kurse8UnitTesting/Kurse8UnitTesting.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Kurse8UnitTesting >= 1.0.0",
+      "C:\\Git\\P3\\Personal\\OOP\\Kurse8Testing\\Kurse8UnitTesting\\Kurse8UnitTesting.csproj",
       "MSTest.TestAdapter >= 2.1.0",
       "MSTest.TestFramework >= 2.1.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
@@ -5660,23 +5647,24 @@
   },
   "packageFolders": {
     "C:\\Users\\johan\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\P3\\OOP\\Personal\\Kurse8Testing\\Kurse8UnitTestingTests\\Kurse8UnitTestingTests.csproj",
+      "projectUniqueName": "C:\\Git\\P3\\Personal\\OOP\\Kurse8Testing\\Kurse8UnitTestingTests\\Kurse8UnitTestingTests.csproj",
       "projectName": "Kurse8UnitTestingTests",
-      "projectPath": "C:\\Git\\P3\\OOP\\Personal\\Kurse8Testing\\Kurse8UnitTestingTests\\Kurse8UnitTestingTests.csproj",
+      "projectPath": "C:\\Git\\P3\\Personal\\OOP\\Kurse8Testing\\Kurse8UnitTestingTests\\Kurse8UnitTestingTests.csproj",
       "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\P3\\OOP\\Personal\\Kurse8Testing\\Kurse8UnitTestingTests\\obj\\",
+      "outputPath": "C:\\Git\\P3\\Personal\\OOP\\Kurse8Testing\\Kurse8UnitTestingTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\johan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5688,8 +5676,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Git\\P3\\OOP\\Personal\\Kurse8Testing\\Kurse8UnitTesting\\Kurse8UnitTesting.csproj": {
-              "projectPath": "C:\\Git\\P3\\OOP\\Personal\\Kurse8Testing\\Kurse8UnitTesting\\Kurse8UnitTesting.csproj"
+            "C:\\Git\\P3\\Personal\\OOP\\Kurse8Testing\\Kurse8UnitTesting\\Kurse8UnitTesting.csproj": {
+              "projectPath": "C:\\Git\\P3\\Personal\\OOP\\Kurse8Testing\\Kurse8UnitTesting\\Kurse8UnitTesting.csproj"
             }
           }
         }
@@ -5735,8 +5723,19 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Git\\P3\\Personal\\OOP\\Kurse8Testing\\Kurse8UnitTesting\\Kurse8UnitTesting.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Git\\P3\\Personal\\OOP\\Kurse8Testing\\Kurse8UnitTesting\\Kurse8UnitTesting.csproj",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

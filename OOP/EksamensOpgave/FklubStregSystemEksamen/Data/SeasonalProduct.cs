@@ -4,13 +4,14 @@ using System.Text;
 
 namespace FklubStregSystemEksamen.Data
 {
-    class SeasonalProduct : Product
+    public class SeasonalProduct : Product
     {
-        public SeasonalProduct(DateTime seasonStartDate, DateTime seasonEndDate, string name, int price) : base(name, price)
+        public SeasonalProduct(string name, int price, int isActive, string deactivateDate, DateTime seasonStartDate, DateTime seasonEndDate) : base(name, price, isActive)
         {
             SeasonStartDate = seasonStartDate;
             SeasonEndDate = seasonEndDate;
         }
+
 
         public DateTime SeasonStartDate { get; set; }
         public DateTime SeasonEndDate { get; set; }

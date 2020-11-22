@@ -1,0 +1,14 @@
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\b\FklubStregSystemEksamenTests\Debug\netcoreapp3.1\FklubStregSystemEksamen.exe
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\b\FklubStregSystemEksamenTests\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\b\FklubStregSystemEksamenTests\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\b\FklubStregSystemEksamenTests\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\b\FklubStregSystemEksamenTests\Debug\netcoreapp3.1\FklubStregSystemEksamenTests.deps.json
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\b\FklubStregSystemEksamenTests\Debug\netcoreapp3.1\FklubStregSystemEksamenTests.runtimeconfig.json
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\b\FklubStregSystemEksamenTests\Debug\netcoreapp3.1\FklubStregSystemEksamenTests.runtimeconfig.dev.json
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\b\FklubStregSystemEksamenTests\Debug\netcoreapp3.1\FklubStregSystemEksamenTests.dll
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\i\FklubStregSystemEksamenTests\Debug\netcoreapp3.1\FklubStregSystemEksamenTests.csprojAssemblyReference.cache
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\i\FklubStregSystemEksamenTests\Debug\netcoreapp3.1\FklubStregSystemEksamenTests.AssemblyInfoInputs.cache
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\i\FklubStregSystemEksamenTests\Debug\netcoreapp3.1\FklubStregSystemEksamenTests.AssemblyInfo.cs
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\i\FklubStregSystemEksamenTests\Debug\netcoreapp3.1\FklubStregSystemEksamenTests.csproj.CopyComplete
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\i\FklubStregSystemEksamenTests\Debug\netcoreapp3.1\FklubStregSystemEksamenTests.dll
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\.vs\FklubStregSystemEksamen\v16\lut\0\i\FklubStregSystemEksamenTests\Debug\netcoreapp3.1\FklubStregSystemEksamenTests.genruntimeconfig.cache

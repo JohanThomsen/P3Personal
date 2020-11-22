@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace FklubStregSystemEksamen.Data
 {
-    delegate void UserBalanceNotification(User user, decimal balance);
-    class User : IComparable, IDatabase
+    public delegate void UserBalanceNotification(User user, decimal balance);
+    public class User : IComparable, IDatabase
     {
         //Lidt ulovligt. Hvis jeg finder en bedre løsning fikser jeg det.
         static int internalID = 0;
@@ -13,14 +14,14 @@ namespace FklubStregSystemEksamen.Data
         {
             return internalID++;
         }
-        public User(string firstname, string lastname, string username, string email, int balance)
+        public User(string firstname, string lastname, string username, string email, decimal balance)
         {
             ID = IncrementID();
             Firstname = firstname;
             Lastname = lastname;
             Username = username;
             Email = email;
-            Balance = balance;
+            Balance = balance + 1000;
         }
         public UserBalanceNotification UnderFiftyNotification;
         public int ID { get; set; }
@@ -63,8 +64,14 @@ namespace FklubStregSystemEksamen.Data
             get { return _email; }
             set 
             {
-                //TODO Validate
-                _email = value; 
+                Regex regex = new Regex("[a-zA-Z0-9.-_]+@[^.-][a-zA-Z0-9.-_]+[.]+[a-zA-Z0-9]+");
+                if (regex.IsMatch(value) == true  || string.IsNullOrEmpty(value))
+                {
+                    _email = value;
+                } else
+                {
+                    throw new ArgumentException("Invalid Email");
+                }
             }
         }
 
@@ -75,8 +82,8 @@ namespace FklubStregSystemEksamen.Data
             get { return _balance; }
             set 
             {
-                decimal _balance = value;
-                if (_balance >= 50)
+                _balance = value;
+                if (_balance <= 50)
                 {
                     UnderFiftyNotification?.Invoke(this, _balance);
                 }              
@@ -84,7 +91,7 @@ namespace FklubStregSystemEksamen.Data
         }
         public override string ToString()
         {
-            return $"{Firstname} {Lastname} ({Email})";
+            return $"First Name : {Firstname} | Last Name : {Lastname} | UserName : {Username} | Email: {Email}";
         }
 
         public int CompareTo(object other)

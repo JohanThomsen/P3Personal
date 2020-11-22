@@ -5,24 +5,31 @@ using FklubStregSystemEksamen.Exceptions;
 
 namespace FklubStregSystemEksamen.Data
 {
-    class InsertCashTransaction : Transaction
+    public class InsertCashTransaction : Transaction
     {
-        public InsertCashTransaction(User user, DateTime date, int amount) : base(user, date)
+        public InsertCashTransaction(User user, DateTime date, decimal amount) : base(user, date)
         {
             Amount = amount;
         }
 
-        public override void Execute()
+        public override bool Execute()
         {
+            bool success = false;
             if (Amount > 0)
             {
+                success = true;
                 User.Balance += Amount;
             } else
             {
                 throw new InvalidInputException($"Input cannot be negative. Input: {Amount}. user balance is {User.Balance}");
             }
-            
+            return success;
         }
+        public override string LogToString()
+        {
+            return $"{base.LogToString()},Insert,{Amount}";
+        }
+
         public override string ToString()
         {
             return $"{Amount} inserted into the account of {User.Username} on {Date}. (Transaction ID: {ID})";

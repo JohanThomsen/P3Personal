@@ -4,20 +4,19 @@ using System.Text;
 
 namespace FklubStregSystemEksamen.Data
 {
-    class Product
+    public class Product : IDatabase
     {
         static int internalID = 0;
         private int IncrementID()
         {
             return internalID++;
         }
-        public Product(string name, int price)
+        public Product(string name, decimal price, int isActive)
         {
             ID = IncrementID();
             Name = name;
-            Price = price;
-            IsActive = true;
-            CanBeBoughtOnCredit = false;
+            Price = price / 100;
+            IsActive = isActive == 0 ? false : true;
         }
         public int ID { get; set; }
         private string _name;
@@ -38,7 +37,7 @@ namespace FklubStregSystemEksamen.Data
 
         public override string ToString()
         {
-            return $"{ID} {Name} {Price} Kr.";
+            return $"ID: {ID} | Name: {Name} | Price: {Price} Kr.";
         }
     }
 }
