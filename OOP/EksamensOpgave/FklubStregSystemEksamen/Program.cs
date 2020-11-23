@@ -15,9 +15,20 @@ namespace FklubStregSystemEksamen
             IStregsystemUI ui = new StregsystemUI(stregsystem);
             StregSystemController sc = new StregSystemController(ui, stregsystem);
 
-            sc.ParseCommand("jleve 15");
-                
-            
+            ui.Start();
+
+            /*sc.ParseCommand("jleve");
+            sc.ParseCommand("jleve 20");
+            sc.ParseCommand("jleve 3 30");
+
+            sc.ParseCommand(":activate 25");
+
+            IEnumerable<Product> activeproducts = stregsystem.ActiveProducts;
+
+            foreach (Product prod in activeproducts)
+            {
+                Console.WriteLine(prod);
+            }*/
         }
     }
 }

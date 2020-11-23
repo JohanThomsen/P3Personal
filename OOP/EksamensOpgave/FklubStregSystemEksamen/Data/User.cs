@@ -15,7 +15,7 @@ namespace FklubStregSystemEksamen.Data
             Lastname = lastname;
             Username = username;
             Email = email;
-            Balance = balance + 1000;
+            Balance = balance;
         }
         public UserBalanceNotification UnderFiftyNotification;
         public int ID { get; set; }
@@ -46,9 +46,16 @@ namespace FklubStregSystemEksamen.Data
         {
             get { return _username; }
             set 
-            { 
-                //TODO validate
-                _username = value; 
+            {
+                Regex regex = new Regex("^[a-zæøåA-ZÆØÅ0-9_]+");
+                if ((regex.IsMatch(value) == true) && !(string.IsNullOrEmpty(value)))
+                {
+                    _username = value;
+                }
+                else
+                {
+                    throw new ArgumentException($"Invalid username: {value}");
+                }
             }
         }
 
@@ -59,12 +66,12 @@ namespace FklubStregSystemEksamen.Data
             set 
             {
                 Regex regex = new Regex("[a-zA-Z0-9.-_]+@[^.-][a-zA-Z0-9.-_]+[.]+[a-zA-Z0-9]+");
-                if (regex.IsMatch(value) == true  || string.IsNullOrEmpty(value))
+                if ((regex.IsMatch(value) == true) && !(string.IsNullOrEmpty(value)))
                 {
                     _email = value;
                 } else
                 {
-                    throw new ArgumentException("Invalid Email");
+                    throw new ArgumentException($"Invalid Email {value}");
                 }
             }
         }
@@ -85,7 +92,7 @@ namespace FklubStregSystemEksamen.Data
         }
         public override string ToString()
         {
-            return $"First Name : {Firstname} | Last Name : {Lastname} | UserName : {Username} | Email: {Email}";
+            return $"First Name : {Firstname} | Last Name : {Lastname} | UserName : {Username} | Email: {Email} | Balance: {Balance}";
         }
 
         public int CompareTo(object other)

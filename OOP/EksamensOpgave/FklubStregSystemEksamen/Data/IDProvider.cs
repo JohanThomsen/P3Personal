@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FklubStregSystemEksamen.Data
 {
-    class IDProvider
+    public class IDProvider
     {
         int internalID = 0;
 

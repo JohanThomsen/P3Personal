@@ -35,7 +35,7 @@ namespace FklubStregSystemEksamen.Data.Tests
         public void GetProductByIDTest()
         {
 
-            Product p = s.GetProductByID(150);
+            Product p = s.GetProductByID(13);
 
             Assert.AreEqual((Decimal)6.5, p.Price); 
             Assert.AreEqual("Øl(Tuborg/Classic/Carlsberg/Rød)", p.Name); 

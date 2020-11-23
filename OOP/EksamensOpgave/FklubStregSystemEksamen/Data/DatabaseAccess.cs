@@ -11,7 +11,7 @@ namespace FklubStregSystemEksamen.Data
         public Database<Transaction> transactions = new Database<Transaction>();
         public Database<User> users = new Database<User>();
         public Database<Product> products = new Database<Product>();
-
+        public IDProvider Transid = new IDProvider();
         public DatabaseAccess()
         {
             FillTransaction();
@@ -19,14 +19,12 @@ namespace FklubStregSystemEksamen.Data
             FillUser();
         }
         private void FillTransaction()
-        {
+        {      
             string filePath = @"C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\Data\Transactions.txt"; //TODO make relative if i have the time
-            Console.WriteLine(filePath);
-            StreamReader reader = null;
+            StreamReader reader;
             if (File.Exists(filePath))
             {
                 reader = new StreamReader(File.OpenRead(filePath));
-                List<string> listA = new List<string>();
                 while (!reader.EndOfStream)
                 {
                     var line = reader.ReadLine();
@@ -35,14 +33,14 @@ namespace FklubStregSystemEksamen.Data
                     {
                         if (values[7] == "Buy")
                         {
-                            BuyTransaction t = new BuyTransaction(Convert.ToInt32(values[0]), new User(values[1], values[2], values[3], values[4], Convert.ToDecimal(values[5])),
+                            BuyTransaction t = new BuyTransaction(Transid.Next(), new User(Convert.ToInt32(values[0]), values[1], values[2], values[3], values[4], Convert.ToDecimal(values[5])),
                                                                   DateTime.Parse(values[6]),
                                                                    new Product(Convert.ToInt32(values[8]), values[9], Convert.ToDecimal(values[10]), Convert.ToInt32(values[11])));
                             transactions.Add(t);
                         }
                         else if (values[7] == "Insert")
                         {
-                            InsertCashTransaction t = new InsertCashTransaction(Convert.ToInt32(values[0]), new User(values[1], values[2], values[3], values[4], Convert.ToDecimal(values[5])),
+                            InsertCashTransaction t = new InsertCashTransaction(Transid.Next(), new User(Convert.ToInt32(values[0]), values[1], values[2], values[3], values[4], Convert.ToDecimal(values[5])),
                                                                   DateTime.Parse(values[6]),
                                                                   Convert.ToDecimal(values[8]));
                             transactions.Add(t);
@@ -61,12 +59,10 @@ namespace FklubStregSystemEksamen.Data
         {
             IDProvider id = new IDProvider();
             string filePath = @"C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\Data\products.csv"; //TODO make relative if i have the time
-            Console.WriteLine(filePath);
-            StreamReader reader = null;
+            StreamReader reader;
             if (File.Exists(filePath))
             {
                 reader = new StreamReader(File.OpenRead(filePath));
-                List<string> listA = new List<string>();
                 string header = reader.ReadLine();
                 while (!reader.EndOfStream)
                 {
@@ -88,12 +84,10 @@ namespace FklubStregSystemEksamen.Data
         {
             IDProvider id = new IDProvider();
             string filePath = @"C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\Data\users.csv"; //TODO make relative if i have the time
-            Console.WriteLine(filePath);
-            StreamReader reader = null;
+            StreamReader reader;
             if (File.Exists(filePath))
             {
                 reader = new StreamReader(File.OpenRead(filePath));
-                List<string> listA = new List<string>();
                 string header = reader.ReadLine();
                 while (!reader.EndOfStream)
                 {

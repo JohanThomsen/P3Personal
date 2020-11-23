@@ -12,13 +12,19 @@ namespace FklubStregSystemEksamen.UI
         public StregsystemUI(IStregsystem stregsystem)
         {
             Stregsystem = stregsystem;
+            stregsystem.UserBalanceWarning += DisplayUserBalanceWarning;
+        }
+
+        public void DisplayUserBalanceWarning(User user, decimal balance)
+        {
+            Console.WriteLine($"User {user.Username} low. Balance is {user.Balance}");
         }
 
         public event StregsystemEvent CommandEntered;
 
         public void Close()
         {
-            throw new NotImplementedException();
+            Environment.Exit(0);
         }
 
         public void DisplayAdminCommandNotFoundMessage(string adminCommand)
@@ -49,14 +55,18 @@ namespace FklubStregSystemEksamen.UI
         public void DisplayUserBuysProduct(BuyTransaction transaction)
         {
             Console.WriteLine(transaction);
+            Console.WriteLine($"new balance is {transaction.User.Balance}");
         }
 
         public void DisplayUserBuysProduct(List<BuyTransaction> transactions)
         {
+            decimal userBalance = -1;
             foreach (Transaction trans in transactions)
             {
                 Console.WriteLine(trans);
+                userBalance = trans.User.Balance;
             }
+            Console.WriteLine($"new balance is {userBalance}");
         }
 
         public void DisplayUserInfo(User user)
@@ -73,10 +83,31 @@ namespace FklubStregSystemEksamen.UI
         {
             while (true)
             {
-                Console.WriteLine("Enter Command:");
-                string command = Console.ReadLine();
-                CommandEntered("Hej");
+                showUI();
+                HandleInput();
             }
+        }
+
+        private void HandleInput()
+        {
+            Console.WriteLine("Enter Command:");
+            string command = Console.ReadLine();
+            Console.Clear();
+            CommandEntered?.Invoke(command);
+        }
+
+        private void showUI()
+        {
+            Console.WriteLine("-------------------------------------------------------------------------------------");
+            Console.WriteLine("Choose a product to buy");
+            Console.WriteLine("-------------------------------------------------------------------------------------");
+            IEnumerable<Product> activeproducts = Stregsystem.ActiveProducts;
+
+            foreach (Product prod in activeproducts)
+            {
+                Console.WriteLine(prod);
+            }
+            Console.WriteLine("-------------------------------------------------------------------------------------");
         }
     }
 }

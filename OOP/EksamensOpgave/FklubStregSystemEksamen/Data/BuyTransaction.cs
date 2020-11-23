@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
 using FklubStregSystemEksamen.Exceptions;
 namespace FklubStregSystemEksamen.Data
@@ -42,7 +43,7 @@ namespace FklubStregSystemEksamen.Data
 
         public override string LogToString()
         {
-            return $"{base.LogToString()},Buy,{Product.ID},{Product.Name},{Product.Price * 100},{(Product.IsActive == true ? 1 : 0)}"; 
+            return $"{base.LogToString()},Buy,{Product.ID},{Product.Name},{(Product.Price * 100).ToString("F0", CultureInfo.InvariantCulture)},{(Product.IsActive == true ? 1 : 0)}"; 
         }
     }
 }
