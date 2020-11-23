@@ -8,7 +8,7 @@ namespace FklubStregSystemEksamen.Data
     {
         private Product Product;
 
-        public BuyTransaction(User user, DateTime date, Product product) : base(user, date)
+        public BuyTransaction(int id, User user, DateTime date, Product product) : base(id, user, date)
         {
             Product = product;
             Amount = product.Price;

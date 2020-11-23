@@ -9,7 +9,7 @@ namespace FklubStregSystemEksamen.Data
     public class Stregsystem : IStregsystem
     {
         public DatabaseAccess DaAccess;
-
+        private IDProvider ID = new IDProvider();
         public Stregsystem(DatabaseAccess daAccess)
         {
             DaAccess = daAccess;
@@ -19,12 +19,12 @@ namespace FklubStregSystemEksamen.Data
 
         public BuyTransaction BuyProduct(User user, Product product)
         {
-            return new BuyTransaction(user, DateTime.Now, product);       
+            return new BuyTransaction(ID.Next(), user, DateTime.Now, product);       
         }
 
         public InsertCashTransaction AddCreditsToAccount(User user, decimal Amount)
         {
-            return new InsertCashTransaction(user, DateTime.Now, Amount);
+            return new InsertCashTransaction(ID.Next(), user, DateTime.Now, Amount);
         }
 
         public bool ExecuteTransaction(Transaction trans)

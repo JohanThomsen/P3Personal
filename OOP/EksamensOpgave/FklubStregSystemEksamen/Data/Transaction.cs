@@ -7,15 +7,9 @@ namespace FklubStregSystemEksamen.Data
 {
     public abstract class Transaction : IDatabase
     {
-        static int internalID = 0;
-        private int IncrementID()
+        public Transaction(int id, User user, DateTime date)
         {
-            return internalID++;
-        }
-
-        public Transaction(User user, DateTime date)
-        {
-            ID = IncrementID();
+            ID = id;
             User = user;
             Date = date;
         }

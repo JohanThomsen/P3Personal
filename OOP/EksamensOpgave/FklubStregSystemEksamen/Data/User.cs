@@ -8,15 +8,9 @@ namespace FklubStregSystemEksamen.Data
     public delegate void UserBalanceNotification(User user, decimal balance);
     public class User : IComparable, IDatabase
     {
-        //Lidt ulovligt. Hvis jeg finder en bedre løsning fikser jeg det.
-        static int internalID = 0;
-        private int IncrementID()
+        public User(int id, string firstname, string lastname, string username, string email, decimal balance)
         {
-            return internalID++;
-        }
-        public User(string firstname, string lastname, string username, string email, decimal balance)
-        {
-            ID = IncrementID();
+            ID = id;
             Firstname = firstname;
             Lastname = lastname;
             Username = username;
@@ -96,7 +90,6 @@ namespace FklubStregSystemEksamen.Data
 
         public int CompareTo(object other)
         {
-            //IDK om det her virker
             return ID.CompareTo(other);
         }
 

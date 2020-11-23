@@ -6,14 +6,9 @@ namespace FklubStregSystemEksamen.Data
 {
     public class Product : IDatabase
     {
-        static int internalID = 0;
-        private int IncrementID()
+        public Product(int id, string name, decimal price, int isActive)
         {
-            return internalID++;
-        }
-        public Product(string name, decimal price, int isActive)
-        {
-            ID = IncrementID();
+            ID = id;
             Name = name;
             Price = price / 100;
             IsActive = isActive == 0 ? false : true;

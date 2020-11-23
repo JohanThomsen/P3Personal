@@ -7,7 +7,7 @@ namespace FklubStregSystemEksamen.Data
 {
     public class InsertCashTransaction : Transaction
     {
-        public InsertCashTransaction(User user, DateTime date, decimal amount) : base(user, date)
+        public InsertCashTransaction(int id, User user, DateTime date, decimal amount) : base(id, user, date)
         {
             Amount = amount;
         }

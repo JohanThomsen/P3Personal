@@ -35,14 +35,14 @@ namespace FklubStregSystemEksamen.Data
                     {
                         if (values[7] == "Buy")
                         {
-                            BuyTransaction t = new BuyTransaction(new User(values[1], values[2], values[3], values[4], Convert.ToDecimal(values[5])),
+                            BuyTransaction t = new BuyTransaction(Convert.ToInt32(values[0]), new User(values[1], values[2], values[3], values[4], Convert.ToDecimal(values[5])),
                                                                   DateTime.Parse(values[6]),
-                                                                  new Product(values[9], Convert.ToDecimal(values[10]), Convert.ToInt32(values[11])));
+                                                                   new Product(Convert.ToInt32(values[8]), values[9], Convert.ToDecimal(values[10]), Convert.ToInt32(values[11])));
                             transactions.Add(t);
                         }
                         else if (values[7] == "Insert")
                         {
-                            InsertCashTransaction t = new InsertCashTransaction(new User(values[1], values[2], values[3], values[4], Convert.ToDecimal(values[5])),
+                            InsertCashTransaction t = new InsertCashTransaction(Convert.ToInt32(values[0]), new User(values[1], values[2], values[3], values[4], Convert.ToDecimal(values[5])),
                                                                   DateTime.Parse(values[6]),
                                                                   Convert.ToDecimal(values[8]));
                             transactions.Add(t);
@@ -59,6 +59,7 @@ namespace FklubStregSystemEksamen.Data
 
         private void FillProduct()
         {
+            IDProvider id = new IDProvider();
             string filePath = @"C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\Data\products.csv"; //TODO make relative if i have the time
             Console.WriteLine(filePath);
             StreamReader reader = null;
@@ -72,7 +73,7 @@ namespace FklubStregSystemEksamen.Data
                     var line = reader.ReadLine();
                     line = StripHTML(line);
                     var values = line.Split(';');
-                    Product p = new Product(values[1], Convert.ToDecimal(values[2]), Convert.ToInt32(values[3]));
+                    Product p = new Product(id.Next(), values[1], Convert.ToDecimal(values[2]), Convert.ToInt32(values[3]));
                     products.Add(p);
                 }
                 reader.Close();
@@ -85,6 +86,7 @@ namespace FklubStregSystemEksamen.Data
 
         private void FillUser()
         {
+            IDProvider id = new IDProvider();
             string filePath = @"C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\Data\users.csv"; //TODO make relative if i have the time
             Console.WriteLine(filePath);
             StreamReader reader = null;
@@ -98,7 +100,7 @@ namespace FklubStregSystemEksamen.Data
                     var line = reader.ReadLine();
                     line = StripHTML(line);
                     var values = line.Split(',');
-                    User u = new User(values[1], values[2], values[3], values[5], Convert.ToInt32(values[4]));
+                    User u = new User(id.Next(), values[1], values[2], values[3], values[5], Convert.ToInt32(values[4]));
                     users.Add(u);
                 }
                 reader.Close();
