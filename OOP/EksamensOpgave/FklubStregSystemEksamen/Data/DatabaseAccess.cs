@@ -28,7 +28,7 @@ namespace FklubStregSystemEksamen.Data
                 while (!reader.EndOfStream)
                 {
                     var line = reader.ReadLine();
-                    var values = line.Split(',');
+                    var values = line.Split(';');
                     if (line != String.Empty)
                     {
                         if (values[7] == "Buy")

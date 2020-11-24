@@ -47,7 +47,7 @@ namespace FklubStregSystemEksamen.Data
             get { return _username; }
             set 
             {
-                Regex regex = new Regex("^[a-zæøåA-ZÆØÅ0-9_]+");
+                Regex regex = new Regex("^[a-zæøåA-ZÆØÅ_]+");
                 if ((regex.IsMatch(value) == true) && !(string.IsNullOrEmpty(value)))
                 {
                     _username = value;
@@ -86,7 +86,6 @@ namespace FklubStregSystemEksamen.Data
                 _balance = value;
                 if (_balance <= 50)
                 {
-                    UnderFiftyNotification?.Invoke(this, _balance);
                 }              
             }
         }

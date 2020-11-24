@@ -35,7 +35,7 @@ namespace FklubStregSystemEksamen.Data
 
         public virtual string LogToString()
         {
-            return $"{User.ID},{User.Firstname},{User.Lastname},{User.Username},{User.Email},{User.Balance},{Date}";
+            return $"{User.ID};{User.Firstname};{User.Lastname};{User.Username};{User.Email};{User.Balance};{Date}";
         }
 
         public abstract bool Execute();

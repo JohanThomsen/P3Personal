@@ -9,9 +9,9 @@ namespace FklubStregSystemEksamen.Data
     public class Stregsystem : IStregsystem
     {
         public DatabaseAccess DaAccess;
-        public Stregsystem(DatabaseAccess daAccess)
+        public Stregsystem()
         {
-            DaAccess = daAccess;
+            DaAccess = new DatabaseAccess();
         }
 
         public event UserBalanceNotification UserBalanceWarning;
@@ -31,6 +31,10 @@ namespace FklubStregSystemEksamen.Data
             bool success = trans.Execute();
             if (success == true)
             {
+                if (trans.User.Balance <= 50)
+                {
+                    UserBalanceWarning?.Invoke(trans.User, trans.User.Balance);
+                }
                 using (System.IO.StreamWriter file =
                 new System.IO.StreamWriter(@"C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\Data\Transactions.txt", true))
                 {

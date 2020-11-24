@@ -10,7 +10,7 @@ namespace FklubStregSystemEksamen.Data.Tests
     [TestClass()]
     public class StregsystemTests
     {
-        Stregsystem s = new Stregsystem(new DatabaseAccess());
+        Stregsystem s = new Stregsystem();
         [TestMethod()]
         public void GetUserByUsernameTest()
         {
@@ -20,16 +20,6 @@ namespace FklubStregSystemEksamen.Data.Tests
             Assert.AreEqual("afull", u.Username); 
             Assert.AreEqual("Andrew", u.Firstname);
         }
-
-        //Returns false wven thought i know it works. SAys the file is already being used idk
-        /*[TestMethod()]
-        public void ExecuteTransactionTest()
-        {
-
-            bool result = s.ExecuteTransaction(new BuyTransaction(s.DaAccess.users[0], DateTime.Now, s.DaAccess.products[0]));
-            
-            Assert.AreEqual(true, result);
-        }*/
 
         [TestMethod()]
         public void GetProductByIDTest()

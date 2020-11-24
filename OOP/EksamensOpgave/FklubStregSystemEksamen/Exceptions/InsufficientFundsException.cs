@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace FklubStregSystemEksamen.Data
+namespace FklubStregSystemEksamen.Exceptions
 {
     [Serializable]
     internal class InsufficientFundsException : Exception

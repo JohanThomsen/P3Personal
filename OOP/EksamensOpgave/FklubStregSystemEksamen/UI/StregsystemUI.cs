@@ -22,14 +22,9 @@ namespace FklubStregSystemEksamen.UI
 
         public event StregsystemEvent CommandEntered;
 
-        public void Close()
+        public void DisplayAdminCommandNotFoundMessage(string errorMessage)
         {
-            Environment.Exit(0);
-        }
-
-        public void DisplayAdminCommandNotFoundMessage(string adminCommand)
-        {
-            Console.WriteLine($"The admin command: {adminCommand} was not found");
+            Console.WriteLine(errorMessage);
         }
 
         public void DisplayGeneralError(string errorString)
@@ -47,9 +42,9 @@ namespace FklubStregSystemEksamen.UI
             Console.WriteLine(error);
         }
 
-        public void DisplayTooManyArgumentsError(string command)
+        public void DisplayTooManyArgumentsError(string errorString)
         {
-            Console.WriteLine($"The commmand: '{command}' has too many arguments");
+            Console.WriteLine(errorString);
         }
 
         public void DisplayUserBuysProduct(BuyTransaction transaction)
@@ -72,6 +67,11 @@ namespace FklubStregSystemEksamen.UI
         public void DisplayUserInfo(User user)
         {
             Console.WriteLine(user);
+            Console.WriteLine("Recent Transactions");
+            foreach (Transaction trans in Stregsystem.GetTransactions(user, 10))
+            {
+                Console.WriteLine(trans);
+            }
         }
 
         public void DisplayUserNotFound(string error)
@@ -86,6 +86,11 @@ namespace FklubStregSystemEksamen.UI
                 showUI();
                 HandleInput();
             }
+        }
+
+        public void Close()
+        {
+            Environment.Exit(0);
         }
 
         private void HandleInput()

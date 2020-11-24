@@ -21,59 +21,71 @@ namespace FklubStregSystemEksamen.UI
 
         public void ParseCommand(string command)
         {
-            Regex buyMatch = new Regex("[\\a-zæøåA-ZÆØÅ]+[\\s][\\d]+"); //[[\a-zæøåA-ZÆØÅ]]+[\s][\d]+ Tjekker efter et navn efterfulgt af et space og et tal
-            Regex multiBuyMatch = new Regex("[\\a-zæøåA-ZÆØÅ]+[\\s][\\d]+[\\s][\\d]+"); //[[\a-zæøåA-ZÆØÅ]]+[\s][\d]+[\s][\d]+ Tjekker efter et navn efterfulgt af et space og tal med space imellem 2 tal
-            Regex accountMatch = new Regex("^[\\a-zæøåA-ZÆØÅ$]+"); //[[\a-zæøåA-ZÆØÅ]]+ Tjekker efter at der kun er en string
-
-            if (command.StartsWith(":"))
+            Regex buyMatch = new Regex("^[a-zæøåA-ZÆØÅ_]+[\\s][\\d]+$"); //[[\a-zæøåA-ZÆØÅ]]+[\s][\d]+ Tjekker efter et navn efterfulgt af et space og et tal
+            Regex multiBuyMatch = new Regex("^[a-zæøåA-ZÆØÅ_]+[\\s][\\d]+[\\s][\\d]+$"); //[[\a-zæøåA-ZÆØÅ]]+[\s][\d]+[\s][\d]+ Tjekker efter et navn efterfulgt af et space og tal med space imellem 2 tal
+            Regex accountMatch = new Regex("^[a-zæøåA-ZÆØÅ_]+$"); //[[\a-zæøåA-ZÆØÅ]]+ Tjekker efter at der kun er en string
+            try
             {
-                ParseAdminCommands(command);
-            }else
-            {
-                try
+                if (command.StartsWith(":"))
                 {
-                    if (multiBuyMatch.IsMatch(command))
-                    {
-                        GetAndShowMultiBuy(command);
-                    }
-                    else if (buyMatch.IsMatch(command))
-                    {
-                        GetAndShowBuy(command);
-                    }
-                    else if (accountMatch.IsMatch(command))
-                    {
-                        GetAndShowAccountInfo(command);
-                    }
-                    else
-                    {
-                        throw new InvalidInputException($"The input {command} is invalid");
-                    }
+                    ParseAdminCommands(command);
                 }
-                catch (Exception e)
+                else
                 {
-                    Ui.DisplayGeneralError(e.Message);
-                }
-
-                void GetAndShowAccountInfo(string command)
-                {
-                    bool success = false;
-                    User user = default;
                     try
                     {
-                        success = true;
-                        user = Core.GetUserByUsername(command);
+                        if (multiBuyMatch.IsMatch(command))
+                        {
+                            GetAndShowMultiBuy(command);
+                        }
+                        else if (buyMatch.IsMatch(command))
+                        {
+                            GetAndShowBuy(command);
+                        }
+                        else if (accountMatch.IsMatch(command))
+                        {
+                            GetAndShowAccountInfo(command);
+                        }
+                        else
+                        {
+                            throw new InvalidInputException($"The input {command} is invalid");
+                        }
                     }
-                    catch (UserNotFoundException e)
+                    catch (InvalidInputException e)
                     {
-                        Ui.DisplayUserNotFound(e.Message);
+                        Ui.DisplayTooManyArgumentsError(e.Message);
                     }
 
-                    if (success == true)
+                    void GetAndShowAccountInfo(string command)
                     {
-                        Ui.DisplayUserInfo(user);
+                        bool success = false;
+                        User user = default;
+                        try
+                        {
+                            success = true;
+                            user = Core.GetUserByUsername(command);
+                        }
+                        catch (UserNotFoundException e)
+                        {
+                            Ui.DisplayUserNotFound(e.Message);
+                        }
+
+                        if (success == true)
+                        {
+                            Ui.DisplayUserInfo(user);
+                        }
                     }
                 }
             }
+            catch (InvalidInputException e)
+            {
+                Ui.DisplayAdminCommandNotFoundMessage(e.Message);
+            }
+            catch(Exception e)
+            {
+                Ui.DisplayGeneralError(e.Message);
+            }
+            
 
             
         }
@@ -154,30 +166,12 @@ namespace FklubStregSystemEksamen.UI
         {
             string[] split = command.Split(' ');
             string adminCommand = split[0];
-            Regex productIDMatch = new Regex("[:a-zæøåA-ZÆØÅ]+[\\s][\\d]+"); //Tjekker efter en command efterfulgt af et space og et tal
-            Regex addCreditsMatch = new Regex("[:a-zæøåA-ZÆØÅ]+[\\s][\\a-zæøåA-ZÆØÅ]+[\\s][\\d]+"); //Tjekker efter en command efterfulgt af brugernavn og et tal
-            Regex quitMatch = new Regex("^[\\a-zæøåA-ZÆØÅ$]+"); //[[\a-zæøåA-ZÆØÅ]]+ Tjekker efter at der kun er en string
+            Regex productIDMatch = new Regex("^[:a-z]+[\\s][\\d]+$"); //Tjekker efter en command efterfulgt af et space og et tal
+            Regex addCreditsMatch = new Regex("^[:a-z]+[\\s][\\a-zæøåA-ZÆØÅ]+[\\s][\\d]+$"); //Tjekker efter en command efterfulgt af brugernavn og et tal
             int productID = -1;
             string userName = null;
-            int creditsToAdd = -1;
+            decimal creditsToAdd = -1;
 
-            if (productIDMatch.IsMatch(command))
-            {
-                productID = Convert.ToInt32(split[1]);
-            } 
-            else if (addCreditsMatch.IsMatch(command))
-            {
-                userName = split[1];
-                creditsToAdd = Convert.ToInt32(split[2]);
-            } 
-            else if (quitMatch.IsMatch(command))
-            {
-               
-            }
-            else
-            {
-                throw new InvalidInputException($"The admin command : {command} doesnt exists");
-            }
 
             Dictionary<string, Action> adminCommands = new Dictionary<string, Action>()
             {
@@ -190,7 +184,25 @@ namespace FklubStregSystemEksamen.UI
                 { ":addcredits", () => Core.AddCreditsToAccount(Core.GetUserByUsername(userName), creditsToAdd)}
             };
 
-            adminCommands[adminCommand]();
+            if (productIDMatch.IsMatch(command))
+            {
+                productID = Convert.ToInt32(split[1]);
+            } 
+            else if (addCreditsMatch.IsMatch(command))
+            {
+                userName = split[1];
+                creditsToAdd = Convert.ToInt32(split[2]);
+            }
+
+
+            if (adminCommands.ContainsKey(adminCommand))
+            {
+                adminCommands[adminCommand]();
+            } else
+            {
+                throw new InvalidInputException($"The admin command : {command} doesnt exist");
+
+            }
         }
     }
 }

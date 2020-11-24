@@ -11,7 +11,7 @@ namespace FklubStregSystemEksamen
     {
         static void Main(string[] args)
         {            
-            IStregsystem stregsystem = new Stregsystem(new DatabaseAccess());
+            IStregsystem stregsystem = new Stregsystem();
             IStregsystemUI ui = new StregsystemUI(stregsystem);
             StregSystemController sc = new StregSystemController(ui, stregsystem);
 

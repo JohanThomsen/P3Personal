@@ -27,7 +27,7 @@ namespace FklubStregSystemEksamen.Data
         }
         public override string LogToString()
         {
-            return $"{base.LogToString()},Insert,{Amount}";
+            return $"{base.LogToString()};Insert;{Amount}";
         }
 
         public override string ToString()
