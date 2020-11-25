@@ -1,0 +1,6 @@
+5;Michael;Suyama;msuya;msuya@sample.stregsystem.dk;15;24/11/2020 19.51.11;Buy;132;FLAN Sandwich lørdag frokost;3500;1
+5;Michael;Suyama;msuya;msuya@sample.stregsystem.dk;15;24/11/2020 19.57.41;Buy;132;FLAN Sandwich lørdag frokost;3500;1
+2;Janet;Leverling;jleve;jleve@sample.stregsystem.dk;5000;24/11/2020 20.04.38;Buy;21;1 Flaske Rødvin;5000;0
+2;Janet;Leverling;jleve;jleve@sample.stregsystem.dk;5040;24/11/2020 20.25.54;Buy;12;Øl(f.eks. Thy, Guld, 47, T-FF);1000;1
+2;Janet;Leverling;jleve;jleve@sample.stregsystem.dk;5036,5;25/11/2020 09.02.24;Buy;16;½L Matilde cacao;1350;0
+2;Janet;Leverling;jleve;jleve@sample.stregsystem.dk;5034;25/11/2020 09.07.09;Buy;15;Cocio;1600;1

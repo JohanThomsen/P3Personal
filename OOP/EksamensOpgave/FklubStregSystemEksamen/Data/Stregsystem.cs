@@ -18,7 +18,13 @@ namespace FklubStregSystemEksamen.Data
 
         public BuyTransaction BuyProduct(User user, Product product)
         {
-            return new BuyTransaction(DaAccess.Transid.Next(), user, DateTime.Now, product);       
+            if (product.IsActive != true)
+            {
+                throw new ProductNotFoundException($"{product.Name} can't be bought since it is inactive");
+            } else
+            {
+                return new BuyTransaction(DaAccess.Transid.Next(), user, DateTime.Now, product);
+            }     
         }
 
         public InsertCashTransaction AddCreditsToAccount(User user, decimal Amount)
@@ -36,7 +42,7 @@ namespace FklubStregSystemEksamen.Data
                     UserBalanceWarning?.Invoke(trans.User, trans.User.Balance);
                 }
                 using (System.IO.StreamWriter file =
-                new System.IO.StreamWriter(@"C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\Data\Transactions.txt", true))
+                new System.IO.StreamWriter(@"Data\Transactions.txt", true))
                 {
                     file.WriteLine(trans.LogToString());
                 }

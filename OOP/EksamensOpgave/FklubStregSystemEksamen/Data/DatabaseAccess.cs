@@ -20,7 +20,7 @@ namespace FklubStregSystemEksamen.Data
         }
         private void FillTransaction()
         {      
-            string filePath = @"C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\Data\Transactions.txt"; //TODO make relative if i have the time
+            string filePath = @"Data/Transactions.txt"; //TODO make relative if i have the time
             StreamReader reader;
             if (File.Exists(filePath))
             {
@@ -58,7 +58,7 @@ namespace FklubStregSystemEksamen.Data
         private void FillProduct()
         {
             IDProvider id = new IDProvider();
-            string filePath = @"C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\Data\products.csv"; //TODO make relative if i have the time
+            string filePath = @"Data/products.csv"; //TODO make relative if i have the time
             StreamReader reader;
             if (File.Exists(filePath))
             {
@@ -83,7 +83,7 @@ namespace FklubStregSystemEksamen.Data
         private void FillUser()
         {
             IDProvider id = new IDProvider();
-            string filePath = @"C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\Data\users.csv"; //TODO make relative if i have the time
+            string filePath = @"Data/users.csv"; //TODO make relative if i have the time
             StreamReader reader;
             if (File.Exists(filePath))
             {

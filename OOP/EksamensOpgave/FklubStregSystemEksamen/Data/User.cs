@@ -83,10 +83,7 @@ namespace FklubStregSystemEksamen.Data
             get { return _balance; }
             set 
             {
-                _balance = value;
-                if (_balance <= 50)
-                {
-                }              
+                _balance = value;           
             }
         }
         public override string ToString()

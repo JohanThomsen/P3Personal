@@ -96,10 +96,11 @@ namespace FklubStregSystemEksamen.UI
             string username = split[0];
             int productID = Convert.ToInt32(split[1]);
             bool success = false;
+            BuyTransaction trans = null;
 
-            BuyTransaction trans = Core.BuyProduct(Core.GetUserByUsername(username), Core.GetProductByID(productID));
             try
             {
+                trans = Core.BuyProduct(Core.GetUserByUsername(username), Core.GetProductByID(productID));
                 success = Core.ExecuteTransaction(trans);
             }
             catch (UserNotFoundException e)
@@ -130,13 +131,14 @@ namespace FklubStregSystemEksamen.UI
             List<BuyTransaction> transactions = new List<BuyTransaction>();
             bool success = false;
 
-            for (int i = 0; i < count; i++)
-            {
-                transactions.Add(Core.BuyProduct(Core.GetUserByUsername(username), Core.GetProductByID(productID)));
-            }
+
 
             try
             {
+                for (int i = 0; i < count; i++)
+                {
+                    transactions.Add(Core.BuyProduct(Core.GetUserByUsername(username), Core.GetProductByID(productID)));
+                }
                 foreach (Transaction transaction in transactions)
                 {
                     success = transaction.Execute();
