@@ -12,7 +12,7 @@ namespace FklubStregSystemEksamen.Data
             SeasonEndDate = seasonEndDate;
         }
 
-
+        public new bool IsActive => DateTime.Now >= SeasonStartDate && DateTime.Now <= SeasonEndDate;
         public DateTime SeasonStartDate { get; set; }
         public DateTime SeasonEndDate { get; set; }
     }

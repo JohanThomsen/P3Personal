@@ -27,3 +27,6 @@ C:\Git\P3\OOP\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\obj\Debug\netc
 C:\Git\P3\OOP\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\bin\Debug\netcoreapp3.1\Data\products.csv
 C:\Git\P3\OOP\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\bin\Debug\netcoreapp3.1\Data\Transactions.txt
 C:\Git\P3\OOP\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\bin\Debug\netcoreapp3.1\Data\users.csv
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\bin\Debug\netcoreapp3.1\Data\products.csv
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\bin\Debug\netcoreapp3.1\Data\Transactions.txt
+C:\Git\P3\Personal\OOP\EksamensOpgave\FklubStregSystemEksamen\bin\Debug\netcoreapp3.1\Data\users.csv

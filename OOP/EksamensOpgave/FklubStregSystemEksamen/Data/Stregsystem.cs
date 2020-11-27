@@ -36,7 +36,7 @@ namespace FklubStregSystemEksamen.Data
         {
             bool success = trans.Execute();
             if (success == true)
-            {
+            { 
                 if (trans.User.Balance <= 50)
                 {
                     UserBalanceWarning?.Invoke(trans.User, trans.User.Balance);
@@ -46,6 +46,7 @@ namespace FklubStregSystemEksamen.Data
                 {
                     file.WriteLine(trans.LogToString());
                 }
+                DaAccess.Add(trans);
             }
             return success;
         }
@@ -100,7 +101,7 @@ namespace FklubStregSystemEksamen.Data
 
         public IEnumerable<Transaction> GetTransactions (User user, int count)
         {
-            return DaAccess.transactions.Take(count).Where(trans => trans.User.Username == user.Username).OrderBy(trans => trans.Date);
+            return DaAccess.transactions.Where(trans => trans.User.Username == user.Username).OrderByDescending(trans => trans.Date).Take(10);
         }
 
         public IEnumerable<Product> ActiveProducts => DaAccess.products.Where(prod => prod.IsActive);

@@ -183,7 +183,7 @@ namespace FklubStregSystemEksamen.UI
                 { ":deactivate", () => Core.GetProductByID(productID).IsActive=false},
                 { ":crediton", () => Core.GetProductByID(productID).CanBeBoughtOnCredit=true},
                 { ":creditoff", () => Core.GetProductByID(productID).CanBeBoughtOnCredit=false},
-                { ":addcredits", () => Core.AddCreditsToAccount(Core.GetUserByUsername(userName), creditsToAdd)}
+                { ":addcredits", () => Core.ExecuteTransaction(Core.AddCreditsToAccount(Core.GetUserByUsername(userName), creditsToAdd)) }
             };
 
             if (productIDMatch.IsMatch(command))
@@ -193,7 +193,7 @@ namespace FklubStregSystemEksamen.UI
             else if (addCreditsMatch.IsMatch(command))
             {
                 userName = split[1];
-                creditsToAdd = Convert.ToInt32(split[2]);
+                creditsToAdd = Convert.ToDecimal(split[2]);
             }
 
 

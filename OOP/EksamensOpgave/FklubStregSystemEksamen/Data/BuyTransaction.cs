@@ -20,7 +20,11 @@ namespace FklubStregSystemEksamen.Data
             bool success = false;
             if (Amount > 0)
             {
-                if ((User.Balance > Amount) && (Product.CanBeBoughtOnCredit == false))
+                if ((User.Balance >= Amount) && (Product.CanBeBoughtOnCredit == false))
+                {
+                    success = true;
+                    User.Balance -= Amount;
+                } else if (Product.CanBeBoughtOnCredit == true)
                 {
                     success = true;
                     User.Balance -= Amount;

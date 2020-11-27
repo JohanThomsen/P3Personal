@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\P3\\OOP\\Personal\\OOP\\EksamensOpgave\\FklubStregSystemEksamenTests\\FklubStregSystemEksamenTests.csproj": {}
+    "C:\\Git\\P3\\Personal\\OOP\\EksamensOpgave\\FklubStregSystemEksamenTests\\FklubStregSystemEksamenTests.csproj": {}
   },
   "projects": {
-    "C:\\Git\\P3\\OOP\\Personal\\OOP\\EksamensOpgave\\FklubStregSystemEksamenTests\\FklubStregSystemEksamenTests.csproj": {
+    "C:\\Git\\P3\\Personal\\OOP\\EksamensOpgave\\FklubStregSystemEksamenTests\\FklubStregSystemEksamenTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\P3\\OOP\\Personal\\OOP\\EksamensOpgave\\FklubStregSystemEksamenTests\\FklubStregSystemEksamenTests.csproj",
+        "projectUniqueName": "C:\\Git\\P3\\Personal\\OOP\\EksamensOpgave\\FklubStregSystemEksamenTests\\FklubStregSystemEksamenTests.csproj",
         "projectName": "FklubStregSystemEksamenTests",
-        "projectPath": "C:\\Git\\P3\\OOP\\Personal\\OOP\\EksamensOpgave\\FklubStregSystemEksamenTests\\FklubStregSystemEksamenTests.csproj",
+        "projectPath": "C:\\Git\\P3\\Personal\\OOP\\EksamensOpgave\\FklubStregSystemEksamenTests\\FklubStregSystemEksamenTests.csproj",
         "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\P3\\OOP\\Personal\\OOP\\EksamensOpgave\\FklubStregSystemEksamenTests\\obj\\",
+        "outputPath": "C:\\Git\\P3\\Personal\\OOP\\EksamensOpgave\\FklubStregSystemEksamenTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\johan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -29,10 +30,9 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Git\\P3\\OOP\\Personal\\OOP\\EksamensOpgave\\FklubStregSystemEksamen\\FklubStregSystemEksamen.csproj": {
-                "projectPath": "C:\\Git\\P3\\OOP\\Personal\\OOP\\EksamensOpgave\\FklubStregSystemEksamen\\FklubStregSystemEksamen.csproj"
+              "C:\\Git\\P3\\Personal\\OOP\\EksamensOpgave\\FklubStregSystemEksamen\\FklubStregSystemEksamen.csproj": {
+                "projectPath": "C:\\Git\\P3\\Personal\\OOP\\EksamensOpgave\\FklubStregSystemEksamen\\FklubStregSystemEksamen.csproj"
               }
             }
           }
@@ -45,7 +45,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
@@ -79,25 +78,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Git\\P3\\OOP\\Personal\\OOP\\EksamensOpgave\\FklubStregSystemEksamen\\FklubStregSystemEksamen.csproj": {
+    "C:\\Git\\P3\\Personal\\OOP\\EksamensOpgave\\FklubStregSystemEksamen\\FklubStregSystemEksamen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\P3\\OOP\\Personal\\OOP\\EksamensOpgave\\FklubStregSystemEksamen\\FklubStregSystemEksamen.csproj",
+        "projectUniqueName": "C:\\Git\\P3\\Personal\\OOP\\EksamensOpgave\\FklubStregSystemEksamen\\FklubStregSystemEksamen.csproj",
         "projectName": "FklubStregSystemEksamen",
-        "projectPath": "C:\\Git\\P3\\OOP\\Personal\\OOP\\EksamensOpgave\\FklubStregSystemEksamen\\FklubStregSystemEksamen.csproj",
+        "projectPath": "C:\\Git\\P3\\Personal\\OOP\\EksamensOpgave\\FklubStregSystemEksamen\\FklubStregSystemEksamen.csproj",
         "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\P3\\OOP\\Personal\\OOP\\EksamensOpgave\\FklubStregSystemEksamen\\obj\\",
+        "outputPath": "C:\\Git\\P3\\Personal\\OOP\\EksamensOpgave\\FklubStregSystemEksamen\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\johan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -108,7 +108,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -120,7 +119,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -136,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

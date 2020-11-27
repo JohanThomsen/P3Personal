@@ -4,3 +4,18 @@
 2;Janet;Leverling;jleve;jleve@sample.stregsystem.dk;5040;24/11/2020 20.25.54;Buy;12;Øl(f.eks. Thy, Guld, 47, T-FF);1000;1
 2;Janet;Leverling;jleve;jleve@sample.stregsystem.dk;5036,5;25/11/2020 09.02.24;Buy;16;½L Matilde cacao;1350;0
 2;Janet;Leverling;jleve;jleve@sample.stregsystem.dk;5034;25/11/2020 09.07.09;Buy;15;Cocio;1600;1
+2;Janet;Leverling;jleve;jleve@sample.stregsystem.dk;5150;26/11/2020 14.27.22;Insert;100
+2;Janet;Leverling;jleve;jleve@sample.stregsystem.dk;5034;27/11/2020 09.38.34;Buy;15;Cocio;1600;1
+5;Michael;Suyama;msuya;msuya@sample.stregsystem.dk;38;27/11/2020 09.39.35;Buy;134;Monster;1200;1
+6;Robert;King;rking;rking@sample.stregsystem.dk;-100;27/11/2020 09.40.04;Insert;900
+6;Robert;King;rking;rking@sample.stregsystem.dk;-1005;27/11/2020 09.42.52;Buy;124;Snack;500;1
+6;Robert;King;rking;rking@sample.stregsystem.dk;-1010;27/11/2020 09.43.14;Buy;124;Snack;500;1
+2;Janet;Leverling;jleve;jleve@sample.stregsystem.dk;5015;27/11/2020 09.45.42;Buy;132;FLAN Sandwich lørdag frokost;3500;1
+2;Janet;Leverling;jleve;jleve@sample.stregsystem.dk;4980;27/11/2020 09.45.53;Buy;132;FLAN Sandwich lørdag frokost;3500;1
+2;Janet;Leverling;jleve;jleve@sample.stregsystem.dk;5033,5;27/11/2020 09.47.36;Buy;77;Dåseøl (Guinness & Kilkenny);1650;1
+2;Janet;Leverling;jleve;jleve@sample.stregsystem.dk;5015;27/11/2020 09.49.38;Buy;132;FLAN Sandwich lørdag frokost;3500;1
+2;Janet;Leverling;jleve;jleve@sample.stregsystem.dk;5035;27/11/2020 09.52.06;Buy;14;Øl(Staropramen, Corona, Budweis);1500;1
+2;Janet;Leverling;jleve;jleve@sample.stregsystem.dk;5034;27/11/2020 11.16.11;Buy;15;Cocio;1600;1
+2;Janet;Leverling;jleve;jleve@sample.stregsystem.dk;5034;27/11/2020 11.18.23;Buy;15;Cocio;1600;1
+2;Janet;Leverling;jleve;jleve@sample.stregsystem.dk;5034;27/11/2020 11.20.02;Buy;15;Cocio;1600;1
+2;Janet;Leverling;jleve;jleve@sample.stregsystem.dk;5034;27/11/2020 11.21.34;Buy;15;Cocio;1600;1

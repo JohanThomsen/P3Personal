@@ -20,6 +20,5 @@ namespace FklubStregSystemEksamen.UI
         void DisplayGeneralError(string errorString);
         void Start();
         public event StregsystemEvent CommandEntered;
-
     }
 }
